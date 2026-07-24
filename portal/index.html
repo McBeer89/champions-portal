@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Champions Data Portal</title>
+  <link rel="icon" href="data:,">
+  <!-- Apply the saved theme before the stylesheet paints, to avoid a flash of
+       the wrong palette. "auto" leaves no attribute (OS prefers-color-scheme). -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('portal-theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) { /* localStorage blocked — fall back to OS auto */ }
+    })();
+  </script>
+  <link rel="stylesheet" href="css/portal.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-main">Champions</span>
+      <span class="brand-sub">Data Portal</span>
+    </a>
+    <!-- Two-row nav (PM 2026-07-12: no dropdown). Row 1 = browse the dex;
+         row 2 = meta views + game info. Router highlights via data-route. -->
+    <nav class="nav-rows">
+      <div class="nav-row">
+        <a href="#/" data-route="">Overview</a>
+        <a href="#/stats" data-route="stats">Stats</a>
+        <a href="#/speed" data-route="speed">Speed</a>
+        <a href="#/moves" data-route="moves">Moves</a>
+        <a href="#/abilities" data-route="abilities">Abilities</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Theme">Theme</button>
+      </div>
+      <div class="nav-row">
+        <a href="#/trends" data-route="trends">Trends</a>
+        <a href="#/pairs" data-route="pairs">Pairs</a>
+        <a href="#/divergence" data-route="divergence">Divergence</a>
+        <a href="#/coverage" data-route="coverage">Coverage</a>
+        <a href="#/tournaments" data-route="tournaments">Tournaments</a>
+        <a href="#/new" data-route="new">New in Champions</a>
+        <a href="#/ranks" data-route="ranks">Ranks &amp; VP</a>
+        <a href="#/about" data-route="about">About</a>
+      </div>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <noscript>
+    <p style="padding:1rem">This portal needs JavaScript enabled to browse the local dex.</p>
+  </noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

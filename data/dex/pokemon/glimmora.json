@@ -1,0 +1,1621 @@
+{
+  "showdown_name": "Glimmora",
+  "form_text": null,
+  "personal_id": "0970000",
+  "national_dex": 970,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Rock",
+    "Poison"
+  ],
+  "stats": {
+    "hp": 83,
+    "atk": 55,
+    "def": 90,
+    "spa": 130,
+    "spd": 81,
+    "spe": 86
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 295,
+      "name": "Toxic Debris",
+      "description": "When the Pokémon takes damage from a physical move, it\ngives the opponent’s side the Toxic Spikes status."
+    }
+  ],
+  "hidden_ability": {
+    "id": 212,
+    "name": "Corrosion",
+    "description": "The Pokémon can poison or badly poison targets even if they’re\nSteel or Poison types."
+  },
+  "weight_hg": 450,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 76,
+      "name": "Solar Beam",
+      "showdown_id": "solarbeam",
+      "type": "Grass",
+      "category": "special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 92,
+      "name": "Toxic",
+      "showdown_id": "toxic",
+      "type": "Poison",
+      "category": "status",
+      "power": 0,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 109,
+      "name": "Confuse Ray",
+      "showdown_id": "confuseray",
+      "type": "Ghost",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 113,
+      "name": "Light Screen",
+      "showdown_id": "lightscreen",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 115,
+      "name": "Reflect",
+      "showdown_id": "reflect",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 120,
+      "name": "Self-Destruct",
+      "showdown_id": "selfdestruct",
+      "type": "Normal",
+      "category": "physical",
+      "power": 200,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 151,
+      "name": "Acid Armor",
+      "showdown_id": "acidarmor",
+      "type": "Poison",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 153,
+      "name": "Explosion",
+      "showdown_id": "explosion",
+      "type": "Normal",
+      "category": "physical",
+      "power": 250,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 157,
+      "name": "Rock Slide",
+      "showdown_id": "rockslide",
+      "type": "Rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 188,
+      "name": "Sludge Bomb",
+      "showdown_id": "sludgebomb",
+      "type": "Poison",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 191,
+      "name": "Spikes",
+      "showdown_id": "spikes",
+      "type": "Ground",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(11)"
+    },
+    {
+      "id": 201,
+      "name": "Sandstorm",
+      "showdown_id": "sandstorm",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 241,
+      "name": "Sunny Day",
+      "showdown_id": "sunnyday",
+      "type": "Fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 246,
+      "name": "Ancient Power",
+      "showdown_id": "ancientpower",
+      "type": "Rock",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 262,
+      "name": "Memento",
+      "showdown_id": "memento",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 317,
+      "name": "Rock Tomb",
+      "showdown_id": "rocktomb",
+      "type": "Rock",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 328,
+      "name": "Sand Tomb",
+      "showdown_id": "sandtomb",
+      "type": "Ground",
+      "category": "physical",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 334,
+      "name": "Iron Defense",
+      "showdown_id": "irondefense",
+      "type": "Steel",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 341,
+      "name": "Mud Shot",
+      "showdown_id": "mudshot",
+      "type": "Ground",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 350,
+      "name": "Rock Blast",
+      "showdown_id": "rockblast",
+      "type": "Rock",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 390,
+      "name": "Toxic Spikes",
+      "showdown_id": "toxicspikes",
+      "type": "Poison",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(11)"
+    },
+    {
+      "id": 397,
+      "name": "Rock Polish",
+      "showdown_id": "rockpolish",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 408,
+      "name": "Power Gem",
+      "showdown_id": "powergem",
+      "type": "Rock",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 412,
+      "name": "Energy Ball",
+      "showdown_id": "energyball",
+      "type": "Grass",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 414,
+      "name": "Earth Power",
+      "showdown_id": "earthpower",
+      "type": "Ground",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 430,
+      "name": "Flash Cannon",
+      "showdown_id": "flashcannon",
+      "type": "Steel",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 441,
+      "name": "Gunk Shot",
+      "showdown_id": "gunkshot",
+      "type": "Poison",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 444,
+      "name": "Stone Edge",
+      "showdown_id": "stoneedge",
+      "type": "Rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 446,
+      "name": "Stealth Rock",
+      "showdown_id": "stealthrock",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(11)"
+    },
+    {
+      "id": 474,
+      "name": "Venoshock",
+      "showdown_id": "venoshock",
+      "type": "Poison",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 479,
+      "name": "Smack Down",
+      "showdown_id": "smackdown",
+      "type": "Rock",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 482,
+      "name": "Sludge Wave",
+      "showdown_id": "sludgewave",
+      "type": "Poison",
+      "category": "special",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 491,
+      "name": "Acid Spray",
+      "showdown_id": "acidspray",
+      "type": "Poison",
+      "category": "special",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 596,
+      "name": "Spiky Shield",
+      "showdown_id": "spikyshield",
+      "type": "Grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 605,
+      "name": "Dazzling Gleam",
+      "showdown_id": "dazzlinggleam",
+      "type": "Fairy",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 800,
+      "name": "Meteor Beam",
+      "showdown_id": "meteorbeam",
+      "type": "Rock",
+      "category": "special",
+      "power": 120,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 866,
+      "name": "Mortal Spin",
+      "showdown_id": "mortalspin",
+      "type": "Poison",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    }
+  ],
+  "megas": [
+    {
+      "showdown_name": "Glimmora-Mega",
+      "form_text": "Mega Glimmora",
+      "types": [
+        "Rock",
+        "Poison"
+      ],
+      "stats": {
+        "hp": 83,
+        "atk": 90,
+        "def": 105,
+        "spa": 150,
+        "spd": 96,
+        "spe": 101
+      },
+      "ability": {
+        "slot": 0,
+        "id": 91,
+        "name": "Adaptability",
+        "description": "Boosts the power of moves of the same type as the Pokémon by\n100% instead of 50%."
+      },
+      "abilities": [
+        {
+          "slot": 0,
+          "id": 91,
+          "name": "Adaptability",
+          "description": "Boosts the power of moves of the same type as the Pokémon by\n100% instead of 50%."
+        }
+      ],
+      "weight_hg": 770,
+      "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Mega%20Glimmora.png",
+      "battle_data": {
+        "present": false,
+        "source": "championsbattledata.com"
+      },
+      "usage": {
+        "present": true,
+        "by_cutoff": {
+          "0": {
+            "usage": 0.010264200000000001,
+            "raw_count": 26857,
+            "viability_ceiling": [
+              2675,
+              83,
+              73,
+              59
+            ],
+            "top_items": [
+              {
+                "key": "glimmoranite",
+                "weight": 26857.0
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "powergem",
+                "weight": 25649.0
+              },
+              {
+                "key": "sludgebomb",
+                "weight": 21630.0
+              },
+              {
+                "key": "spikyshield",
+                "weight": 21467.0
+              },
+              {
+                "key": "earthpower",
+                "weight": 21435.0
+              },
+              {
+                "key": "sludgewave",
+                "weight": 4691.0
+              },
+              {
+                "key": "protect",
+                "weight": 4231.0
+              },
+              {
+                "key": "energyball",
+                "weight": 2180.0
+              },
+              {
+                "key": "dazzlinggleam",
+                "weight": 1319.0
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "adaptability",
+                "weight": 26857.0
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Timid:1/0/0/32/1/32",
+                "weight": 6238.0
+              },
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 5415.0
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 1817.0
+              },
+              {
+                "key": "Modest:1/0/0/32/1/32",
+                "weight": 1115.0
+              },
+              {
+                "key": "Bold:27/0/21/0/18/0",
+                "weight": 993.0
+              },
+              {
+                "key": "Timid:0/0/0/32/2/32",
+                "weight": 733.0
+              },
+              {
+                "key": "Timid:9/0/0/25/0/32",
+                "weight": 532.0
+              },
+              {
+                "key": "Timid:0/0/2/32/0/32",
+                "weight": 472.0
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Whimsicott",
+                "weight": 9639.0
+              },
+              {
+                "key": "Sinistcha",
+                "weight": 5759.0
+              },
+              {
+                "key": "Basculegion",
+                "weight": 4824.0
+              },
+              {
+                "key": "Garchomp",
+                "weight": 4761.0
+              },
+              {
+                "key": "Kingambit",
+                "weight": 4587.0
+              },
+              {
+                "key": "Incineroar",
+                "weight": 4454.0
+              },
+              {
+                "key": "Staraptor-Mega",
+                "weight": 4048.0
+              },
+              {
+                "key": "Ninetales-Alola",
+                "weight": 2874.0
+              }
+            ],
+            "top_counters": [
+              {
+                "key": "Venusaur",
+                "score": 0.6014,
+                "n": 143
+              },
+              {
+                "key": "Blastoise-Mega",
+                "score": 0.5658,
+                "n": 76
+              },
+              {
+                "key": "Tinkaton",
+                "score": 0.5614,
+                "n": 57
+              },
+              {
+                "key": "Kangaskhan",
+                "score": 0.5556,
+                "n": 72
+              },
+              {
+                "key": "Gallade",
+                "score": 0.5536,
+                "n": 56
+              },
+              {
+                "key": "Garchomp",
+                "score": 0.5477,
+                "n": 1154
+              },
+              {
+                "key": "Volcarona",
+                "score": 0.5439,
+                "n": 57
+              },
+              {
+                "key": "Meowscarada",
+                "score": 0.5303,
+                "n": 66
+              }
+            ]
+          },
+          "1760": {
+            "usage": 0.0147897,
+            "raw_count": 26857,
+            "viability_ceiling": [
+              2675,
+              83,
+              73,
+              59
+            ],
+            "top_items": [
+              {
+                "key": "glimmoranite",
+                "weight": 149.19697770302344
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "powergem",
+                "weight": 148.40451235106065
+              },
+              {
+                "key": "sludgebomb",
+                "weight": 137.29498294573818
+              },
+              {
+                "key": "spikyshield",
+                "weight": 136.26684448407997
+              },
+              {
+                "key": "earthpower",
+                "weight": 131.71667290723622
+              },
+              {
+                "key": "sludgewave",
+                "weight": 16.46864355615379
+              },
+              {
+                "key": "protect",
+                "weight": 11.855588410939028
+              },
+              {
+                "key": "energyball",
+                "weight": 4.142137731196436
+              },
+              {
+                "key": "rockpolish",
+                "weight": 2.078147400299371
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "adaptability",
+                "weight": 149.19697770302344
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Bold:27/0/21/0/18/0",
+                "weight": 46.24481416550971
+              },
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 21.154655636796562
+              },
+              {
+                "key": "Timid:1/0/0/32/1/32",
+                "weight": 18.231902272983564
+              },
+              {
+                "key": "Modest:1/0/0/32/1/32",
+                "weight": 9.828136000281273
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 7.079196679203339
+              },
+              {
+                "key": "Modest:15/0/0/32/1/18",
+                "weight": 6.831269284839921
+              },
+              {
+                "key": "Modest:32/0/0/32/2/0",
+                "weight": 3.7839667756596795
+              },
+              {
+                "key": "Timid:0/0/0/32/2/32",
+                "weight": 3.573807538142452
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Kingambit",
+                "weight": 68.26889720473334
+              },
+              {
+                "key": "Staraptor-Mega",
+                "weight": 64.87314469907399
+              },
+              {
+                "key": "Dragapult",
+                "weight": 46.31277113126674
+              },
+              {
+                "key": "Whimsicott",
+                "weight": 44.440966371743784
+              },
+              {
+                "key": "Araquanid",
+                "weight": 39.76888396098553
+              },
+              {
+                "key": "Alcremie",
+                "weight": 39.57589997505507
+              },
+              {
+                "key": "Basculegion",
+                "weight": 34.59873003386392
+              },
+              {
+                "key": "Garchomp",
+                "weight": 27.361539923793593
+              }
+            ],
+            "top_counters": []
+          }
+        }
+      }
+    }
+  ],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.0185358,
+        "raw_count": 48227,
+        "viability_ceiling": [
+          4103,
+          85,
+          72,
+          60
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 37006.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 3216.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 1996.0
+          },
+          {
+            "key": "shucaberry",
+            "weight": 1318.0
+          },
+          {
+            "key": "leftovers",
+            "weight": 1232.0
+          },
+          {
+            "key": "expertbelt",
+            "weight": 945.0
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 903.0
+          },
+          {
+            "key": "passhoberry",
+            "weight": 247.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "powergem",
+            "weight": 43353.0
+          },
+          {
+            "key": "sludgebomb",
+            "weight": 37626.0
+          },
+          {
+            "key": "earthpower",
+            "weight": 36858.0
+          },
+          {
+            "key": "spikyshield",
+            "weight": 36190.0
+          },
+          {
+            "key": "mortalspin",
+            "weight": 9001.0
+          },
+          {
+            "key": "energyball",
+            "weight": 5256.0
+          },
+          {
+            "key": "protect",
+            "weight": 4385.0
+          },
+          {
+            "key": "sludgewave",
+            "weight": 3810.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "toxicdebris",
+            "weight": 46030.0
+          },
+          {
+            "key": "corrosion",
+            "weight": 2197.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Timid:1/0/0/32/1/32",
+            "weight": 8891.0
+          },
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 7686.0
+          },
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 6425.0
+          },
+          {
+            "key": "Modest:1/0/0/32/1/32",
+            "weight": 6272.0
+          },
+          {
+            "key": "Naive:0/2/0/32/0/32",
+            "weight": 1926.0
+          },
+          {
+            "key": "Timid:0/0/0/32/0/32",
+            "weight": 1247.0
+          },
+          {
+            "key": "Timid:0/0/0/32/2/32",
+            "weight": 1188.0
+          },
+          {
+            "key": "Timid:32/0/0/2/0/32",
+            "weight": 978.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Whimsicott",
+            "weight": 17058.0
+          },
+          {
+            "key": "Garchomp",
+            "weight": 13796.0
+          },
+          {
+            "key": "Sinistcha",
+            "weight": 12509.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 9229.0
+          },
+          {
+            "key": "Staraptor-Mega",
+            "weight": 8663.0
+          },
+          {
+            "key": "Basculegion",
+            "weight": 8481.0
+          },
+          {
+            "key": "Kingambit",
+            "weight": 7107.0
+          },
+          {
+            "key": "Charizard-Mega-Y",
+            "weight": 6868.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Gallade",
+            "score": 0.5857,
+            "n": 70
+          },
+          {
+            "key": "Camerupt-Mega",
+            "score": 0.582,
+            "n": 122
+          },
+          {
+            "key": "Mawile-Mega",
+            "score": 0.5629,
+            "n": 620
+          },
+          {
+            "key": "Azumarill",
+            "score": 0.5577,
+            "n": 52
+          },
+          {
+            "key": "Basculegion-F",
+            "score": 0.5455,
+            "n": 66
+          },
+          {
+            "key": "Gyarados-Mega",
+            "score": 0.5323,
+            "n": 62
+          },
+          {
+            "key": "Scizor",
+            "score": 0.5205,
+            "n": 73
+          },
+          {
+            "key": "Kingambit",
+            "score": 0.5193,
+            "n": 1190
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.0269452,
+        "raw_count": 48227,
+        "viability_ceiling": [
+          4103,
+          85,
+          72,
+          60
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 249.32430038039095
+          },
+          {
+            "key": "lifeorb",
+            "weight": 8.235998896001723
+          },
+          {
+            "key": "choicescarf",
+            "weight": 4.057036367030735
+          },
+          {
+            "key": "shucaberry",
+            "weight": 2.4994246188882396
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 2.3466912604951387
+          },
+          {
+            "key": "expertbelt",
+            "weight": 2.057015416315519
+          },
+          {
+            "key": "leftovers",
+            "weight": 0.7356668462540822
+          },
+          {
+            "key": "nothing",
+            "weight": 0.32092563215171377
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "powergem",
+            "weight": 266.4100042410782
+          },
+          {
+            "key": "sludgebomb",
+            "weight": 252.25849395966807
+          },
+          {
+            "key": "earthpower",
+            "weight": 250.3554148508655
+          },
+          {
+            "key": "spikyshield",
+            "weight": 238.718099024225
+          },
+          {
+            "key": "energyball",
+            "weight": 17.458861671762133
+          },
+          {
+            "key": "mortalspin",
+            "weight": 17.39326478750828
+          },
+          {
+            "key": "protect",
+            "weight": 14.876743011289738
+          },
+          {
+            "key": "sludgewave",
+            "weight": 7.537638590973125
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "toxicdebris",
+            "weight": 267.3404862405508
+          },
+          {
+            "key": "corrosion",
+            "weight": 2.904661007310657
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Modest:1/0/0/32/1/32",
+            "weight": 100.4889625960143
+          },
+          {
+            "key": "Timid:1/0/0/32/1/32",
+            "weight": 40.81239028937196
+          },
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 37.91340662488682
+          },
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 36.91919037428966
+          },
+          {
+            "key": "Timid:0/0/0/32/2/32",
+            "weight": 8.649413377512655
+          },
+          {
+            "key": "Modest:0/0/0/32/2/32",
+            "weight": 7.515477101829541
+          },
+          {
+            "key": "Timid:1/0/1/32/0/32",
+            "weight": 5.732555363619924
+          },
+          {
+            "key": "Naive:0/2/0/32/0/32",
+            "weight": 5.045418846475288
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Whimsicott",
+            "weight": 181.01766626256256
+          },
+          {
+            "key": "Garchomp",
+            "weight": 156.6666404787273
+          },
+          {
+            "key": "Charizard-Mega-Y",
+            "weight": 123.88697812840773
+          },
+          {
+            "key": "Basculegion",
+            "weight": 118.9220046046445
+          },
+          {
+            "key": "Metagross-Mega",
+            "weight": 90.4407220508973
+          },
+          {
+            "key": "Staraptor-Mega",
+            "weight": 57.60266921839162
+          },
+          {
+            "key": "Kingambit",
+            "weight": 57.22843683522881
+          },
+          {
+            "key": "Incineroar",
+            "weight": 39.85206626536826
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Glimmora.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Power Gem",
+        "pct": 95.8,
+        "rank": 1
+      },
+      {
+        "name": "Spiky Shield",
+        "pct": 90.2,
+        "rank": 2
+      },
+      {
+        "name": "Earth Power",
+        "pct": 87.8,
+        "rank": 3
+      },
+      {
+        "name": "Sludge Bomb",
+        "pct": 85.4,
+        "rank": 4
+      },
+      {
+        "name": "Energy Ball",
+        "pct": 8.4,
+        "rank": 5
+      },
+      {
+        "name": "Sludge Wave",
+        "pct": 8.3,
+        "rank": 6
+      },
+      {
+        "name": "Mortal Spin",
+        "pct": 6.7,
+        "rank": 7
+      },
+      {
+        "name": "Stealth Rock",
+        "pct": 3.5,
+        "rank": 8
+      },
+      {
+        "name": "Toxic",
+        "pct": 2.4,
+        "rank": 9
+      },
+      {
+        "name": "Protect",
+        "pct": 2.4,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Focus Sash",
+        "pct": 58.9,
+        "rank": 1
+      },
+      {
+        "name": "Glimmoranite",
+        "pct": 28.8,
+        "rank": 2
+      },
+      {
+        "name": "Life Orb",
+        "pct": 2.6,
+        "rank": 3
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 2.0,
+        "rank": 4
+      },
+      {
+        "name": "Expert Belt",
+        "pct": 1.5,
+        "rank": 5
+      },
+      {
+        "name": "Shuca Berry",
+        "pct": 1.4,
+        "rank": 6
+      },
+      {
+        "name": "Leftovers",
+        "pct": 1.3,
+        "rank": 7
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 1.1,
+        "rank": 8
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 0.5,
+        "rank": 9
+      },
+      {
+        "name": "Wise Glasses",
+        "pct": 0.4,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Toxic Debris",
+        "pct": 96.7,
+        "rank": 1
+      },
+      {
+        "name": "Corrosion",
+        "pct": 3.3,
+        "rank": 2
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Modest",
+        "pct": 63.5,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Attack",
+        "rank": 1
+      },
+      {
+        "name": "Timid",
+        "pct": 30.8,
+        "stat_up": "Speed",
+        "stat_down": "Attack",
+        "rank": 2
+      },
+      {
+        "name": "Bold",
+        "pct": 1.3,
+        "stat_up": "Defense",
+        "stat_down": "Attack",
+        "rank": 3
+      },
+      {
+        "name": "Calm",
+        "pct": 1.2,
+        "stat_up": "Sp. Def",
+        "stat_down": "Attack",
+        "rank": 4
+      },
+      {
+        "name": "Quiet",
+        "pct": 1.0,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 5
+      },
+      {
+        "name": "Jolly",
+        "pct": 0.4,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 6
+      },
+      {
+        "name": "Adamant",
+        "pct": 0.3,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 7
+      },
+      {
+        "name": "Relaxed",
+        "pct": 0.2,
+        "stat_up": "Defense",
+        "stat_down": "Speed",
+        "rank": 8
+      },
+      {
+        "name": "Sassy",
+        "pct": 0.2,
+        "stat_up": "Sp. Def",
+        "stat_down": "Speed",
+        "rank": 9
+      },
+      {
+        "name": "Hasty",
+        "pct": 0.2,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 1,
+          "atk": 0,
+          "def": 1,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 32.3,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 28.4,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 1,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 1,
+          "spe": 32
+        },
+        "pct": 6.4,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 5.0,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 2.9,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 15,
+          "atk": 0,
+          "def": 1,
+          "spa": 28,
+          "spd": 1,
+          "spe": 21
+        },
+        "pct": 0.8,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 1,
+          "spa": 32,
+          "spd": 1,
+          "spe": 32
+        },
+        "pct": 0.6,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 30,
+          "atk": 0,
+          "def": 0,
+          "spa": 22,
+          "spd": 14,
+          "spe": 0
+        },
+        "pct": 0.6,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Whimsicott",
+        "rank": 1
+      },
+      {
+        "name": "Garchomp",
+        "rank": 2
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 3
+      },
+      {
+        "name": "Charizard",
+        "rank": 4
+      },
+      {
+        "name": "Staraptor",
+        "rank": 5
+      },
+      {
+        "name": "Kingambit",
+        "rank": 6
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 7
+      },
+      {
+        "name": "Incineroar",
+        "rank": 8
+      },
+      {
+        "name": "Alolan Ninetales",
+        "rank": 9
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 10
+      }
+    ]
+  }
+}

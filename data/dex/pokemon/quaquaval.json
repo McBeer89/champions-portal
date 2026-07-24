@@ -1,0 +1,1456 @@
+{
+  "showdown_name": "Quaquaval",
+  "form_text": null,
+  "personal_id": "0914000",
+  "national_dex": 914,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Water",
+    "Fighting"
+  ],
+  "stats": {
+    "hp": 85,
+    "atk": 120,
+    "def": 80,
+    "spa": 85,
+    "spd": 75,
+    "spe": 85
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 67,
+      "name": "Torrent",
+      "description": "Boosts the power of the Pokémon’s Water-type moves by 50%\nwhen its HP drops to 1/3 or less of its max."
+    }
+  ],
+  "hidden_ability": {
+    "id": 153,
+    "name": "Moxie",
+    "description": "When the Pokémon knocks out a target with an attack, its\nAttack stat is boosted by 1 stage."
+  },
+  "weight_hg": 619,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 14,
+      "name": "Swords Dance",
+      "showdown_id": "swordsdance",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 17,
+      "name": "Wing Attack",
+      "showdown_id": "wingattack",
+      "type": "Flying",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 25,
+      "name": "Mega Kick",
+      "showdown_id": "megakick",
+      "type": "Normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 75,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 56,
+      "name": "Hydro Pump",
+      "showdown_id": "hydropump",
+      "type": "Water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 57,
+      "name": "Surf",
+      "showdown_id": "surf",
+      "type": "Water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 67,
+      "name": "Low Kick",
+      "showdown_id": "lowkick",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 68,
+      "name": "Counter",
+      "showdown_id": "counter",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": -5,
+      "target": "raw(13)"
+    },
+    {
+      "id": 97,
+      "name": "Agility",
+      "showdown_id": "agility",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 116,
+      "name": "Focus Energy",
+      "showdown_id": "focusenergy",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 179,
+      "name": "Reversal",
+      "showdown_id": "reversal",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 196,
+      "name": "Icy Wind",
+      "showdown_id": "icywind",
+      "type": "Ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 197,
+      "name": "Detect",
+      "showdown_id": "detect",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 226,
+      "name": "Baton Pass",
+      "showdown_id": "batonpass",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 227,
+      "name": "Encore",
+      "showdown_id": "encore",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 229,
+      "name": "Rapid Spin",
+      "showdown_id": "rapidspin",
+      "type": "Normal",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 244,
+      "name": "Psych Up",
+      "showdown_id": "psychup",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 250,
+      "name": "Whirlpool",
+      "showdown_id": "whirlpool",
+      "type": "Water",
+      "category": "special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 269,
+      "name": "Taunt",
+      "showdown_id": "taunt",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 280,
+      "name": "Brick Break",
+      "showdown_id": "brickbreak",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 282,
+      "name": "Knock Off",
+      "showdown_id": "knockoff",
+      "type": "Dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 283,
+      "name": "Endeavor",
+      "showdown_id": "endeavor",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 297,
+      "name": "Feather Dance",
+      "showdown_id": "featherdance",
+      "type": "Flying",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 308,
+      "name": "Hydro Cannon",
+      "showdown_id": "hydrocannon",
+      "type": "Water",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 314,
+      "name": "Air Cutter",
+      "showdown_id": "aircutter",
+      "type": "Flying",
+      "category": "special",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 332,
+      "name": "Aerial Ace",
+      "showdown_id": "aerialace",
+      "type": "Flying",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 339,
+      "name": "Bulk Up",
+      "showdown_id": "bulkup",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 352,
+      "name": "Water Pulse",
+      "showdown_id": "waterpulse",
+      "type": "Water",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 355,
+      "name": "Roost",
+      "showdown_id": "roost",
+      "type": "Flying",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 369,
+      "name": "U-turn",
+      "showdown_id": "uturn",
+      "type": "Bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 370,
+      "name": "Close Combat",
+      "showdown_id": "closecombat",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 374,
+      "name": "Fling",
+      "showdown_id": "fling",
+      "type": "Dark",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 387,
+      "name": "Last Resort",
+      "showdown_id": "lastresort",
+      "type": "Normal",
+      "category": "physical",
+      "power": 140,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 403,
+      "name": "Air Slash",
+      "showdown_id": "airslash",
+      "type": "Flying",
+      "category": "special",
+      "power": 75,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 413,
+      "name": "Brave Bird",
+      "showdown_id": "bravebird",
+      "type": "Flying",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 453,
+      "name": "Aqua Jet",
+      "showdown_id": "aquajet",
+      "type": "Water",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 458,
+      "name": "Double Hit",
+      "showdown_id": "doublehit",
+      "type": "Normal",
+      "category": "physical",
+      "power": 35,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 490,
+      "name": "Low Sweep",
+      "showdown_id": "lowsweep",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 512,
+      "name": "Acrobatics",
+      "showdown_id": "acrobatics",
+      "type": "Flying",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 542,
+      "name": "Hurricane",
+      "showdown_id": "hurricane",
+      "type": "Flying",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 581,
+      "name": "Misty Terrain",
+      "showdown_id": "mistyterrain",
+      "type": "Fairy",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 710,
+      "name": "Liquidation",
+      "showdown_id": "liquidation",
+      "type": "Water",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 811,
+      "name": "Coaching",
+      "showdown_id": "coaching",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "raw(14)"
+    },
+    {
+      "id": 812,
+      "name": "Flip Turn",
+      "showdown_id": "flipturn",
+      "type": "Water",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 813,
+      "name": "Triple Axel",
+      "showdown_id": "tripleaxel",
+      "type": "Ice",
+      "category": "physical",
+      "power": 20,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 834,
+      "name": "Wave Crash",
+      "showdown_id": "wavecrash",
+      "type": "Water",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 861,
+      "name": "Ice Spinner",
+      "showdown_id": "icespinner",
+      "type": "Ice",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 872,
+      "name": "Aqua Step",
+      "showdown_id": "aquastep",
+      "type": "Water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 886,
+      "name": "Chilling Water",
+      "showdown_id": "chillingwater",
+      "type": "Water",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 895,
+      "name": "Aqua Cutter",
+      "showdown_id": "aquacutter",
+      "type": "Water",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 918,
+      "name": "Upper Hand",
+      "showdown_id": "upperhand",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 3,
+      "target": "selected"
+    }
+  ],
+  "megas": [],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.0023562,
+        "raw_count": 6233,
+        "viability_ceiling": [
+          687,
+          72,
+          68,
+          55
+        ],
+        "top_items": [
+          {
+            "key": "mysticwater",
+            "weight": 1159.0
+          },
+          {
+            "key": "focussash",
+            "weight": 1073.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 1009.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 771.0
+          },
+          {
+            "key": "whiteherb",
+            "weight": 388.0
+          },
+          {
+            "key": "expertbelt",
+            "weight": 273.0
+          },
+          {
+            "key": "quickclaw",
+            "weight": 268.0
+          },
+          {
+            "key": "leftovers",
+            "weight": 184.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "aquastep",
+            "weight": 5586.0
+          },
+          {
+            "key": "closecombat",
+            "weight": 5138.0
+          },
+          {
+            "key": "protect",
+            "weight": 2507.0
+          },
+          {
+            "key": "aquajet",
+            "weight": 1573.0
+          },
+          {
+            "key": "tripleaxel",
+            "weight": 1386.0
+          },
+          {
+            "key": "icespinner",
+            "weight": 1367.0
+          },
+          {
+            "key": "detect",
+            "weight": 1204.0
+          },
+          {
+            "key": "bravebird",
+            "weight": 825.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "moxie",
+            "weight": 6004.0
+          },
+          {
+            "key": "torrent",
+            "weight": 229.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Jolly:1/32/0/0/1/32",
+            "weight": 2324.0
+          },
+          {
+            "key": "Adamant:1/32/0/0/1/32",
+            "weight": 693.0
+          },
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 590.0
+          },
+          {
+            "key": "Adamant:2/32/0/0/0/32",
+            "weight": 589.0
+          },
+          {
+            "key": "Adamant:0/32/0/0/2/32",
+            "weight": 144.0
+          },
+          {
+            "key": "Adamant:0/32/2/0/0/32",
+            "weight": 112.0
+          },
+          {
+            "key": "Jolly:0/32/0/0/0/32",
+            "weight": 96.0
+          },
+          {
+            "key": "Adamant:0/32/0/0/0/32",
+            "weight": 80.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Sinistcha",
+            "weight": 1167.0
+          },
+          {
+            "key": "Whimsicott",
+            "weight": 1150.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 1039.0
+          },
+          {
+            "key": "Kingambit",
+            "weight": 669.0
+          },
+          {
+            "key": "Pelipper",
+            "weight": 644.0
+          },
+          {
+            "key": "Farigiraf",
+            "weight": 633.0
+          },
+          {
+            "key": "Raichu-Mega-Y",
+            "weight": 586.0
+          },
+          {
+            "key": "Garchomp",
+            "weight": 562.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Mawile-Mega",
+            "score": 0.6154,
+            "n": 65
+          },
+          {
+            "key": "Basculegion",
+            "score": 0.5506,
+            "n": 158
+          },
+          {
+            "key": "Torkoal",
+            "score": 0.5474,
+            "n": 95
+          },
+          {
+            "key": "Pelipper",
+            "score": 0.5467,
+            "n": 150
+          },
+          {
+            "key": "Sylveon",
+            "score": 0.5432,
+            "n": 81
+          },
+          {
+            "key": "Ninetales-Alola",
+            "score": 0.5385,
+            "n": 52
+          },
+          {
+            "key": "Sneasler",
+            "score": 0.5063,
+            "n": 158
+          },
+          {
+            "key": "Sinistcha",
+            "score": 0.5023,
+            "n": 219
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.000597,
+        "raw_count": 6233,
+        "viability_ceiling": [
+          687,
+          72,
+          68,
+          55
+        ],
+        "top_items": [
+          {
+            "key": "lifeorb",
+            "weight": 1.6212264709941897
+          },
+          {
+            "key": "focussash",
+            "weight": 1.3649102953685894
+          },
+          {
+            "key": "mysticwater",
+            "weight": 0.8260887495326505
+          },
+          {
+            "key": "choicescarf",
+            "weight": 0.7965125147287313
+          },
+          {
+            "key": "whiteherb",
+            "weight": 0.5039969566795555
+          },
+          {
+            "key": "blackbelt",
+            "weight": 0.3717900512022128
+          },
+          {
+            "key": "expertbelt",
+            "weight": 0.20707277835467375
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 0.20482891167983486
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "aquastep",
+            "weight": 5.458091385143673
+          },
+          {
+            "key": "closecombat",
+            "weight": 5.145628946710621
+          },
+          {
+            "key": "protect",
+            "weight": 3.35199080640955
+          },
+          {
+            "key": "aquajet",
+            "weight": 2.2999765662684983
+          },
+          {
+            "key": "tripleaxel",
+            "weight": 1.3592925957864734
+          },
+          {
+            "key": "detect",
+            "weight": 1.1904852136178676
+          },
+          {
+            "key": "icespinner",
+            "weight": 0.8949378429757768
+          },
+          {
+            "key": "wavecrash",
+            "weight": 0.8944790209460389
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "moxie",
+            "weight": 6.165647992448692
+          },
+          {
+            "key": "torrent",
+            "weight": 0.04795428984194483
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Adamant:2/32/0/0/0/32",
+            "weight": 1.2641599047117869
+          },
+          {
+            "key": "Jolly:1/32/0/0/1/32",
+            "weight": 0.7288301583761809
+          },
+          {
+            "key": "Adamant:0/32/2/0/0/32",
+            "weight": 0.530578336935183
+          },
+          {
+            "key": "Adamant:9/26/0/0/1/30",
+            "weight": 0.4330684016021445
+          },
+          {
+            "key": "Adamant:23/20/0/0/0/23",
+            "weight": 0.42708314640926437
+          },
+          {
+            "key": "Adamant:11/23/0/0/10/22",
+            "weight": 0.40734681954107954
+          },
+          {
+            "key": "Hardy:2/32/0/0/0/32",
+            "weight": 0.37494720001655724
+          },
+          {
+            "key": "Adamant:0/4/15/0/15/32",
+            "weight": 0.37027277617647913
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Sinistcha",
+            "weight": 1.5176787275417114
+          },
+          {
+            "key": "Pelipper",
+            "weight": 1.2941621340950977
+          },
+          {
+            "key": "Incineroar",
+            "weight": 1.263856039424683
+          },
+          {
+            "key": "Metagross-Mega",
+            "weight": 1.0962155871738894
+          },
+          {
+            "key": "Archaludon",
+            "weight": 0.9263619918712126
+          },
+          {
+            "key": "Farigiraf",
+            "weight": 0.9054576215475532
+          },
+          {
+            "key": "Staraptor-Mega",
+            "weight": 0.8841020850640817
+          },
+          {
+            "key": "Hydreigon",
+            "weight": 0.879864250917928
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Quaquaval.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Aqua Step",
+        "pct": 89.8,
+        "rank": 1
+      },
+      {
+        "name": "Close Combat",
+        "pct": 80.4,
+        "rank": 2
+      },
+      {
+        "name": "Triple Axel",
+        "pct": 41.0,
+        "rank": 3
+      },
+      {
+        "name": "Protect",
+        "pct": 38.0,
+        "rank": 4
+      },
+      {
+        "name": "Aqua Jet",
+        "pct": 21.2,
+        "rank": 5
+      },
+      {
+        "name": "Ice Spinner",
+        "pct": 20.4,
+        "rank": 6
+      },
+      {
+        "name": "Detect",
+        "pct": 17.1,
+        "rank": 7
+      },
+      {
+        "name": "Knock Off",
+        "pct": 14.2,
+        "rank": 8
+      },
+      {
+        "name": "Wave Crash",
+        "pct": 10.9,
+        "rank": 9
+      },
+      {
+        "name": "Brick Break",
+        "pct": 10.3,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Focus Sash",
+        "pct": 19.5,
+        "rank": 1
+      },
+      {
+        "name": "Life Orb",
+        "pct": 15.1,
+        "rank": 2
+      },
+      {
+        "name": "Mystic Water",
+        "pct": 12.0,
+        "rank": 3
+      },
+      {
+        "name": "White Herb",
+        "pct": 10.0,
+        "rank": 4
+      },
+      {
+        "name": "Muscle Band",
+        "pct": 6.5,
+        "rank": 5
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 6.4,
+        "rank": 6
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 4.7,
+        "rank": 7
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 4.4,
+        "rank": 8
+      },
+      {
+        "name": "Expert Belt",
+        "pct": 3.7,
+        "rank": 9
+      },
+      {
+        "name": "Leftovers",
+        "pct": 3.0,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Moxie",
+        "pct": 94.1,
+        "rank": 1
+      },
+      {
+        "name": "Torrent",
+        "pct": 5.9,
+        "rank": 2
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Adamant",
+        "pct": 33.9,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 1
+      },
+      {
+        "name": "Jolly",
+        "pct": 33.0,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 2
+      },
+      {
+        "name": "Naughty",
+        "pct": 2.8,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Def",
+        "rank": 3
+      },
+      {
+        "name": "Lonely",
+        "pct": 2.3,
+        "stat_up": "Attack",
+        "stat_down": "Defense",
+        "rank": 4
+      },
+      {
+        "name": "Brave",
+        "pct": 2.2,
+        "stat_up": "Attack",
+        "stat_down": "Speed",
+        "rank": 5
+      },
+      {
+        "name": "Careful",
+        "pct": 2.0,
+        "stat_up": "Sp. Def",
+        "stat_down": "Sp. Atk",
+        "rank": 6
+      },
+      {
+        "name": "Hasty",
+        "pct": 1.5,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 7
+      },
+      {
+        "name": "Impish",
+        "pct": 1.0,
+        "stat_up": "Defense",
+        "stat_down": "Sp. Atk",
+        "rank": 8
+      },
+      {
+        "name": "Naive",
+        "pct": 0.6,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Def",
+        "rank": 9
+      },
+      {
+        "name": "Gentle",
+        "pct": 0.5,
+        "stat_up": "Sp. Def",
+        "stat_down": "Defense",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 39.3,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 10.3,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 7.1,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 31,
+          "atk": 1,
+          "def": 10,
+          "spa": 0,
+          "spd": 15,
+          "spe": 9
+        },
+        "pct": 4.0,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        },
+        "pct": 3.3,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 1,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 1,
+          "spe": 32
+        },
+        "pct": 2.4,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 1.7,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 15,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 19
+        },
+        "pct": 1.2,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Raichu",
+        "rank": 1
+      },
+      {
+        "name": "Whimsicott",
+        "rank": 2
+      },
+      {
+        "name": "Pelipper",
+        "rank": 3
+      },
+      {
+        "name": "Incineroar",
+        "rank": 4
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 5
+      },
+      {
+        "name": "Garchomp",
+        "rank": 6
+      },
+      {
+        "name": "Charizard",
+        "rank": 7
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 8
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 9
+      },
+      {
+        "name": "Kingambit",
+        "rank": 10
+      }
+    ]
+  }
+}

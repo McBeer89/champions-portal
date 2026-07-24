@@ -1,0 +1,1391 @@
+{
+  "showdown_name": "Pelipper",
+  "form_text": null,
+  "personal_id": "0279000",
+  "national_dex": 279,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Water",
+    "Flying"
+  ],
+  "stats": {
+    "hp": 60,
+    "atk": 50,
+    "def": 100,
+    "spa": 95,
+    "spd": 70,
+    "spe": 65
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 51,
+      "name": "Keen Eye",
+      "description": "The Pokémon ignores changes to targets’ evasiveness and its\naccuracy cannot be lowered."
+    },
+    {
+      "slot": 1,
+      "id": 2,
+      "name": "Drizzle",
+      "description": "Summons rain for 5 turns when the Pokémon enters a battle."
+    }
+  ],
+  "hidden_ability": {
+    "id": 44,
+    "name": "Rain Dish",
+    "description": "The Pokémon has 1/16 of its max HP restored at the end of\nevery turn in rain."
+  },
+  "weight_hg": 280,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 19,
+      "name": "Fly",
+      "showdown_id": "fly",
+      "type": "Flying",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 56,
+      "name": "Hydro Pump",
+      "showdown_id": "hydropump",
+      "type": "Water",
+      "category": "special",
+      "power": 110,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 57,
+      "name": "Surf",
+      "showdown_id": "surf",
+      "type": "Water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 58,
+      "name": "Ice Beam",
+      "showdown_id": "icebeam",
+      "type": "Ice",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 59,
+      "name": "Blizzard",
+      "showdown_id": "blizzard",
+      "type": "Ice",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 97,
+      "name": "Agility",
+      "showdown_id": "agility",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 98,
+      "name": "Quick Attack",
+      "showdown_id": "quickattack",
+      "type": "Normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 127,
+      "name": "Waterfall",
+      "showdown_id": "waterfall",
+      "type": "Water",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 168,
+      "name": "Thief",
+      "showdown_id": "thief",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 196,
+      "name": "Icy Wind",
+      "showdown_id": "icywind",
+      "type": "Ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 211,
+      "name": "Steel Wing",
+      "showdown_id": "steelwing",
+      "type": "Steel",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 90,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 250,
+      "name": "Whirlpool",
+      "showdown_id": "whirlpool",
+      "type": "Water",
+      "category": "special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 253,
+      "name": "Uproar",
+      "showdown_id": "uproar",
+      "type": "Normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "field"
+    },
+    {
+      "id": 254,
+      "name": "Stockpile",
+      "showdown_id": "stockpile",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 255,
+      "name": "Spit Up",
+      "showdown_id": "spitup",
+      "type": "Normal",
+      "category": "special",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 256,
+      "name": "Swallow",
+      "showdown_id": "swallow",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 282,
+      "name": "Knock Off",
+      "showdown_id": "knockoff",
+      "type": "Dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 297,
+      "name": "Feather Dance",
+      "showdown_id": "featherdance",
+      "type": "Flying",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 311,
+      "name": "Weather Ball",
+      "showdown_id": "weatherball",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 314,
+      "name": "Air Cutter",
+      "showdown_id": "aircutter",
+      "type": "Flying",
+      "category": "special",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 330,
+      "name": "Muddy Water",
+      "showdown_id": "muddywater",
+      "type": "Water",
+      "category": "special",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 332,
+      "name": "Aerial Ace",
+      "showdown_id": "aerialace",
+      "type": "Flying",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 352,
+      "name": "Water Pulse",
+      "showdown_id": "waterpulse",
+      "type": "Water",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 355,
+      "name": "Roost",
+      "showdown_id": "roost",
+      "type": "Flying",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 366,
+      "name": "Tailwind",
+      "showdown_id": "tailwind",
+      "type": "Flying",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 369,
+      "name": "U-turn",
+      "showdown_id": "uturn",
+      "type": "Bug",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 374,
+      "name": "Fling",
+      "showdown_id": "fling",
+      "type": "Dark",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 392,
+      "name": "Aqua Ring",
+      "showdown_id": "aquaring",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 402,
+      "name": "Seed Bomb",
+      "showdown_id": "seedbomb",
+      "type": "Grass",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 403,
+      "name": "Air Slash",
+      "showdown_id": "airslash",
+      "type": "Flying",
+      "category": "special",
+      "power": 75,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 413,
+      "name": "Brave Bird",
+      "showdown_id": "bravebird",
+      "type": "Flying",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 441,
+      "name": "Gunk Shot",
+      "showdown_id": "gunkshot",
+      "type": "Poison",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 469,
+      "name": "Wide Guard",
+      "showdown_id": "wideguard",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 3,
+      "target": "raw(12)"
+    },
+    {
+      "id": 487,
+      "name": "Soak",
+      "showdown_id": "soak",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 512,
+      "name": "Acrobatics",
+      "showdown_id": "acrobatics",
+      "type": "Flying",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 542,
+      "name": "Hurricane",
+      "showdown_id": "hurricane",
+      "type": "Flying",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 710,
+      "name": "Liquidation",
+      "showdown_id": "liquidation",
+      "type": "Water",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 814,
+      "name": "Dual Wingbeat",
+      "showdown_id": "dualwingbeat",
+      "type": "Flying",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 883,
+      "name": "Snowscape",
+      "showdown_id": "snowscape",
+      "type": "Ice",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 886,
+      "name": "Chilling Water",
+      "showdown_id": "chillingwater",
+      "type": "Water",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.1692267,
+        "raw_count": 443539,
+        "viability_ceiling": [
+          28913,
+          83,
+          73,
+          61
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 196223.0
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 102736.0
+          },
+          {
+            "key": "damprock",
+            "weight": 71732.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 19149.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 15092.0
+          },
+          {
+            "key": "leftovers",
+            "weight": 8703.0
+          },
+          {
+            "key": "wacanberry",
+            "weight": 7002.0
+          },
+          {
+            "key": "mysticwater",
+            "weight": 5778.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "hurricane",
+            "weight": 428946.0
+          },
+          {
+            "key": "tailwind",
+            "weight": 377171.0
+          },
+          {
+            "key": "weatherball",
+            "weight": 370986.0
+          },
+          {
+            "key": "wideguard",
+            "weight": 236218.0
+          },
+          {
+            "key": "protect",
+            "weight": 200714.0
+          },
+          {
+            "key": "muddywater",
+            "weight": 30030.0
+          },
+          {
+            "key": "uturn",
+            "weight": 26391.0
+          },
+          {
+            "key": "helpinghand",
+            "weight": 17742.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "drizzle",
+            "weight": 439810.0
+          },
+          {
+            "key": "keeneye",
+            "weight": 2832.0
+          },
+          {
+            "key": "raindish",
+            "weight": 897.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 54992.0
+          },
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 53692.0
+          },
+          {
+            "key": "Modest:32/0/0/32/2/0",
+            "weight": 38506.0
+          },
+          {
+            "key": "Bold:32/0/32/2/0/0",
+            "weight": 34337.0
+          },
+          {
+            "key": "Modest:32/0/1/5/17/11",
+            "weight": 18159.0
+          },
+          {
+            "key": "Modest:32/0/0/32/0/2",
+            "weight": 11244.0
+          },
+          {
+            "key": "Modest:0/0/2/32/0/32",
+            "weight": 6854.0
+          },
+          {
+            "key": "Modest:0/0/0/32/2/32",
+            "weight": 6646.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Archaludon",
+            "weight": 260439.0
+          },
+          {
+            "key": "Swampert-Mega",
+            "weight": 251012.0
+          },
+          {
+            "key": "Sinistcha",
+            "weight": 178334.0
+          },
+          {
+            "key": "Basculegion",
+            "weight": 103066.0
+          },
+          {
+            "key": "Grimmsnarl",
+            "weight": 90534.0
+          },
+          {
+            "key": "Sableye",
+            "weight": 85810.0
+          },
+          {
+            "key": "Metagross-Mega",
+            "weight": 66507.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 60649.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Raichu-Alola",
+            "score": 0.5977,
+            "n": 87
+          },
+          {
+            "key": "Drampa",
+            "score": 0.5927,
+            "n": 329
+          },
+          {
+            "key": "Abomasnow-Mega",
+            "score": 0.5842,
+            "n": 796
+          },
+          {
+            "key": "Goodra",
+            "score": 0.5821,
+            "n": 67
+          },
+          {
+            "key": "Rampardos",
+            "score": 0.5769,
+            "n": 130
+          },
+          {
+            "key": "Jolteon",
+            "score": 0.5745,
+            "n": 752
+          },
+          {
+            "key": "Diggersby",
+            "score": 0.5593,
+            "n": 59
+          },
+          {
+            "key": "Bellibolt",
+            "score": 0.5569,
+            "n": 571
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.18578119999999998,
+        "raw_count": 443539,
+        "viability_ceiling": [
+          28913,
+          83,
+          73,
+          61
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 874.7768670518983
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 594.5516482530675
+          },
+          {
+            "key": "damprock",
+            "weight": 168.30913114011545
+          },
+          {
+            "key": "lifeorb",
+            "weight": 100.48650238272559
+          },
+          {
+            "key": "choicescarf",
+            "weight": 66.78797643857801
+          },
+          {
+            "key": "mysticwater",
+            "weight": 16.752928486687853
+          },
+          {
+            "key": "leftovers",
+            "weight": 15.090687757599854
+          },
+          {
+            "key": "wacanberry",
+            "weight": 13.274948338805112
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "hurricane",
+            "weight": 1861.1795908840793
+          },
+          {
+            "key": "weatherball",
+            "weight": 1696.9744159101763
+          },
+          {
+            "key": "tailwind",
+            "weight": 1650.5119725282289
+          },
+          {
+            "key": "wideguard",
+            "weight": 992.5102431906928
+          },
+          {
+            "key": "protect",
+            "weight": 852.1371355872669
+          },
+          {
+            "key": "muddywater",
+            "weight": 116.34015357832303
+          },
+          {
+            "key": "helpinghand",
+            "weight": 90.42255024763362
+          },
+          {
+            "key": "uturn",
+            "weight": 74.76836943382322
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "drizzle",
+            "weight": 1876.0066419345253
+          },
+          {
+            "key": "keeneye",
+            "weight": 2.2006482219144834
+          },
+          {
+            "key": "raindish",
+            "weight": 1.1762401966644933
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 351.357009254728
+          },
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 217.88797005048366
+          },
+          {
+            "key": "Modest:32/0/1/5/17/11",
+            "weight": 106.69305370864038
+          },
+          {
+            "key": "Modest:32/0/0/32/2/0",
+            "weight": 96.36589107750906
+          },
+          {
+            "key": "Bold:32/0/32/2/0/0",
+            "weight": 51.14470079713128
+          },
+          {
+            "key": "Modest:0/0/2/32/0/32",
+            "weight": 45.51644970781579
+          },
+          {
+            "key": "Timid:0/0/0/32/2/32",
+            "weight": 36.72034046845504
+          },
+          {
+            "key": "Modest:31/0/2/0/32/1",
+            "weight": 29.356942333091624
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Archaludon",
+            "weight": 1300.616161340357
+          },
+          {
+            "key": "Swampert-Mega",
+            "weight": 1258.4334054462677
+          },
+          {
+            "key": "Sinistcha",
+            "weight": 855.6020758479319
+          },
+          {
+            "key": "Basculegion",
+            "weight": 519.546148168328
+          },
+          {
+            "key": "Grimmsnarl",
+            "weight": 484.16882246238475
+          },
+          {
+            "key": "Sableye",
+            "weight": 369.2006582677937
+          },
+          {
+            "key": "Metagross-Mega",
+            "weight": 349.5768236365676
+          },
+          {
+            "key": "Sneasler",
+            "weight": 261.59913048491745
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Pelipper.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Hurricane",
+        "pct": 98.0,
+        "rank": 1
+      },
+      {
+        "name": "Tailwind",
+        "pct": 85.8,
+        "rank": 2
+      },
+      {
+        "name": "Weather Ball",
+        "pct": 84.7,
+        "rank": 3
+      },
+      {
+        "name": "Wide Guard",
+        "pct": 65.8,
+        "rank": 4
+      },
+      {
+        "name": "Protect",
+        "pct": 29.7,
+        "rank": 5
+      },
+      {
+        "name": "Muddy Water",
+        "pct": 7.8,
+        "rank": 6
+      },
+      {
+        "name": "Rain Dance",
+        "pct": 5.9,
+        "rank": 7
+      },
+      {
+        "name": "Ice Beam",
+        "pct": 4.9,
+        "rank": 8
+      },
+      {
+        "name": "U-turn",
+        "pct": 3.9,
+        "rank": 9
+      },
+      {
+        "name": "Helping Hand",
+        "pct": 3.4,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Sitrus Berry",
+        "pct": 41.3,
+        "rank": 1
+      },
+      {
+        "name": "Focus Sash",
+        "pct": 34.7,
+        "rank": 2
+      },
+      {
+        "name": "Damp Rock",
+        "pct": 10.3,
+        "rank": 3
+      },
+      {
+        "name": "Life Orb",
+        "pct": 3.1,
+        "rank": 4
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 1.7,
+        "rank": 5
+      },
+      {
+        "name": "Leftovers",
+        "pct": 1.2,
+        "rank": 6
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 1.1,
+        "rank": 7
+      },
+      {
+        "name": "Wacan Berry",
+        "pct": 0.9,
+        "rank": 8
+      },
+      {
+        "name": "Mystic Water",
+        "pct": 0.8,
+        "rank": 9
+      },
+      {
+        "name": "Sharp Beak",
+        "pct": 0.5,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Drizzle",
+        "pct": 99.9,
+        "rank": 1
+      },
+      {
+        "name": "Keen Eye",
+        "pct": 0.1,
+        "rank": 2
+      },
+      {
+        "name": "Rain Dish",
+        "pct": 0.0,
+        "rank": 3
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Modest",
+        "pct": 61.2,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Attack",
+        "rank": 1
+      },
+      {
+        "name": "Timid",
+        "pct": 19.0,
+        "stat_up": "Speed",
+        "stat_down": "Attack",
+        "rank": 2
+      },
+      {
+        "name": "Bold",
+        "pct": 9.5,
+        "stat_up": "Defense",
+        "stat_down": "Attack",
+        "rank": 3
+      },
+      {
+        "name": "Calm",
+        "pct": 5.3,
+        "stat_up": "Sp. Def",
+        "stat_down": "Attack",
+        "rank": 4
+      },
+      {
+        "name": "Quiet",
+        "pct": 2.6,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 5
+      },
+      {
+        "name": "Relaxed",
+        "pct": 0.8,
+        "stat_up": "Defense",
+        "stat_down": "Speed",
+        "rank": 6
+      },
+      {
+        "name": "Sassy",
+        "pct": 0.5,
+        "stat_up": "Sp. Def",
+        "stat_down": "Speed",
+        "rank": 7
+      },
+      {
+        "name": "Mild",
+        "pct": 0.4,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Defense",
+        "rank": 8
+      },
+      {
+        "name": "Hasty",
+        "pct": 0.2,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 9
+      },
+      {
+        "name": "Jolly",
+        "pct": 0.1,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 25.0,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 1,
+          "spa": 5,
+          "spd": 17,
+          "spe": 11
+        },
+        "pct": 7.5,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 23,
+          "spd": 0,
+          "spe": 11
+        },
+        "pct": 5.2,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 3.2,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 3.0,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 31,
+          "atk": 0,
+          "def": 1,
+          "spa": 5,
+          "spd": 18,
+          "spe": 11
+        },
+        "pct": 1.8,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 31,
+          "atk": 0,
+          "def": 2,
+          "spa": 0,
+          "spd": 32,
+          "spe": 1
+        },
+        "pct": 1.7,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 2
+        },
+        "pct": 1.4,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Archaludon",
+        "rank": 1
+      },
+      {
+        "name": "Swampert",
+        "rank": 2
+      },
+      {
+        "name": "Grimmsnarl",
+        "rank": 3
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 4
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 5
+      },
+      {
+        "name": "Venusaur",
+        "rank": 6
+      },
+      {
+        "name": "Charizard",
+        "rank": 7
+      },
+      {
+        "name": "Sableye",
+        "rank": 8
+      },
+      {
+        "name": "Sneasler",
+        "rank": 9
+      },
+      {
+        "name": "Metagross",
+        "rank": 10
+      }
+    ]
+  }
+}

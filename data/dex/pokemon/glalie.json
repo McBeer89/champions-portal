@@ -1,0 +1,1567 @@
+{
+  "showdown_name": "Glalie",
+  "form_text": null,
+  "personal_id": "0362000",
+  "national_dex": 362,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Ice"
+  ],
+  "stats": {
+    "hp": 80,
+    "atk": 80,
+    "def": 80,
+    "spa": 80,
+    "spd": 80,
+    "spe": 80
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 39,
+      "name": "Inner Focus",
+      "description": "The Pokémon never flinches when attacked and is unaffected\nby Intimidate."
+    },
+    {
+      "slot": 1,
+      "id": 115,
+      "name": "Ice Body",
+      "description": "The Pokémon has 1/16 of its max HP restored at the end of\nevery turn in snow."
+    }
+  ],
+  "hidden_ability": {
+    "id": 141,
+    "name": "Moody",
+    "description": "At the end of every turn, one of the Pokémon’s stats will be\nboosted by 2 stages, but another will be lowered by 1 stage."
+  },
+  "weight_hg": 2565,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 44,
+      "name": "Bite",
+      "showdown_id": "bite",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 50,
+      "name": "Disable",
+      "showdown_id": "disable",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 58,
+      "name": "Ice Beam",
+      "showdown_id": "icebeam",
+      "type": "Ice",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 59,
+      "name": "Blizzard",
+      "showdown_id": "blizzard",
+      "type": "Ice",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 89,
+      "name": "Earthquake",
+      "showdown_id": "earthquake",
+      "type": "Ground",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 104,
+      "name": "Double Team",
+      "showdown_id": "doubleteam",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 113,
+      "name": "Light Screen",
+      "showdown_id": "lightscreen",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 120,
+      "name": "Self-Destruct",
+      "showdown_id": "selfdestruct",
+      "type": "Normal",
+      "category": "physical",
+      "power": 200,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 153,
+      "name": "Explosion",
+      "showdown_id": "explosion",
+      "type": "Normal",
+      "category": "physical",
+      "power": 250,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 180,
+      "name": "Spite",
+      "showdown_id": "spite",
+      "type": "Ghost",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 184,
+      "name": "Scary Face",
+      "showdown_id": "scaryface",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 191,
+      "name": "Spikes",
+      "showdown_id": "spikes",
+      "type": "Ground",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(11)"
+    },
+    {
+      "id": 196,
+      "name": "Icy Wind",
+      "showdown_id": "icywind",
+      "type": "Ice",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 205,
+      "name": "Rollout",
+      "showdown_id": "rollout",
+      "type": "Rock",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 90,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 242,
+      "name": "Crunch",
+      "showdown_id": "crunch",
+      "type": "Dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 247,
+      "name": "Shadow Ball",
+      "showdown_id": "shadowball",
+      "type": "Ghost",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 269,
+      "name": "Taunt",
+      "showdown_id": "taunt",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 310,
+      "name": "Astonish",
+      "showdown_id": "astonish",
+      "type": "Ghost",
+      "category": "physical",
+      "power": 30,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 311,
+      "name": "Weather Ball",
+      "showdown_id": "weatherball",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 313,
+      "name": "Fake Tears",
+      "showdown_id": "faketears",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 329,
+      "name": "Sheer Cold",
+      "showdown_id": "sheercold",
+      "type": "Ice",
+      "category": "special",
+      "power": 1,
+      "accuracy": 30,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 333,
+      "name": "Icicle Spear",
+      "showdown_id": "iciclespear",
+      "type": "Ice",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 335,
+      "name": "Block",
+      "showdown_id": "block",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 352,
+      "name": "Water Pulse",
+      "showdown_id": "waterpulse",
+      "type": "Water",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 360,
+      "name": "Gyro Ball",
+      "showdown_id": "gyroball",
+      "type": "Steel",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 371,
+      "name": "Payback",
+      "showdown_id": "payback",
+      "type": "Dark",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 399,
+      "name": "Dark Pulse",
+      "showdown_id": "darkpulse",
+      "type": "Dark",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 415,
+      "name": "Switcheroo",
+      "showdown_id": "switcheroo",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 419,
+      "name": "Avalanche",
+      "showdown_id": "avalanche",
+      "type": "Ice",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": -4,
+      "target": "selected"
+    },
+    {
+      "id": 420,
+      "name": "Ice Shard",
+      "showdown_id": "iceshard",
+      "type": "Ice",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 423,
+      "name": "Ice Fang",
+      "showdown_id": "icefang",
+      "type": "Ice",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 442,
+      "name": "Iron Head",
+      "showdown_id": "ironhead",
+      "type": "Steel",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 492,
+      "name": "Foul Play",
+      "showdown_id": "foulplay",
+      "type": "Dark",
+      "category": "physical",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 506,
+      "name": "Hex",
+      "showdown_id": "hex",
+      "type": "Ghost",
+      "category": "special",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 523,
+      "name": "Bulldoze",
+      "showdown_id": "bulldoze",
+      "type": "Ground",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 524,
+      "name": "Frost Breath",
+      "showdown_id": "frostbreath",
+      "type": "Ice",
+      "category": "special",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 556,
+      "name": "Icicle Crash",
+      "showdown_id": "iciclecrash",
+      "type": "Ice",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 573,
+      "name": "Freeze-Dry",
+      "showdown_id": "freezedry",
+      "type": "Ice",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 798,
+      "name": "Steel Roller",
+      "showdown_id": "steelroller",
+      "type": "Steel",
+      "category": "physical",
+      "power": 130,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 861,
+      "name": "Ice Spinner",
+      "showdown_id": "icespinner",
+      "type": "Ice",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 883,
+      "name": "Snowscape",
+      "showdown_id": "snowscape",
+      "type": "Ice",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 885,
+      "name": "Trailblaze",
+      "showdown_id": "trailblaze",
+      "type": "Grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 886,
+      "name": "Chilling Water",
+      "showdown_id": "chillingwater",
+      "type": "Water",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [
+    {
+      "showdown_name": "Glalie-Mega",
+      "form_text": "Mega Glalie",
+      "types": [
+        "Ice"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 120,
+        "def": 80,
+        "spa": 120,
+        "spd": 80,
+        "spe": 100
+      },
+      "ability": {
+        "slot": 0,
+        "id": 174,
+        "name": "Refrigerate",
+        "description": "The Pokémon’s Normal-type moves become Ice-type moves\nand their power is boosted by 20%."
+      },
+      "abilities": [
+        {
+          "slot": 0,
+          "id": 174,
+          "name": "Refrigerate",
+          "description": "The Pokémon’s Normal-type moves become Ice-type moves\nand their power is boosted by 20%."
+        }
+      ],
+      "weight_hg": 3502,
+      "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Mega%20Glalie.png",
+      "battle_data": {
+        "present": false,
+        "source": "championsbattledata.com"
+      },
+      "usage": {
+        "present": true,
+        "by_cutoff": {
+          "0": {
+            "usage": 0.0014987,
+            "raw_count": 4248,
+            "viability_ceiling": [
+              451,
+              73,
+              70,
+              55
+            ],
+            "top_items": [
+              {
+                "key": "glalitite",
+                "weight": 4248.0
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "explosion",
+                "weight": 3816.0
+              },
+              {
+                "key": "protect",
+                "weight": 3800.0
+              },
+              {
+                "key": "bodyslam",
+                "weight": 1404.0
+              },
+              {
+                "key": "iceshard",
+                "weight": 1258.0
+              },
+              {
+                "key": "taunt",
+                "weight": 902.0
+              },
+              {
+                "key": "earthquake",
+                "weight": 892.0
+              },
+              {
+                "key": "freezedry",
+                "weight": 632.0
+              },
+              {
+                "key": "iciclecrash",
+                "weight": 402.0
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "refrigerate",
+                "weight": 4248.0
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Jolly:2/32/0/0/0/32",
+                "weight": 1724.0
+              },
+              {
+                "key": "Adamant:2/32/0/0/0/32",
+                "weight": 708.0
+              },
+              {
+                "key": "Hasty:0/32/0/2/0/32",
+                "weight": 123.0
+              },
+              {
+                "key": "Adamant:0/32/0/0/0/32",
+                "weight": 117.0
+              },
+              {
+                "key": "Jolly:0/32/0/0/2/32",
+                "weight": 115.0
+              },
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 103.0
+              },
+              {
+                "key": "Adamant:32/32/0/0/0/2",
+                "weight": 89.0
+              },
+              {
+                "key": "Hasty:0/2/0/32/0/32",
+                "weight": 73.0
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Oranguru",
+                "weight": 847.0
+              },
+              {
+                "key": "Torkoal",
+                "weight": 834.0
+              },
+              {
+                "key": "Whimsicott",
+                "weight": 741.0
+              },
+              {
+                "key": "Basculegion",
+                "weight": 692.0
+              },
+              {
+                "key": "Sylveon",
+                "weight": 607.0
+              },
+              {
+                "key": "Sinistcha",
+                "weight": 540.0
+              },
+              {
+                "key": "Garchomp",
+                "weight": 470.0
+              },
+              {
+                "key": "Kingambit",
+                "weight": 465.0
+              }
+            ],
+            "top_counters": [
+              {
+                "key": "Kingambit",
+                "score": 0.7119,
+                "n": 59
+              },
+              {
+                "key": "Torkoal",
+                "score": 0.6038,
+                "n": 53
+              },
+              {
+                "key": "Incineroar",
+                "score": 0.5918,
+                "n": 147
+              },
+              {
+                "key": "Archaludon",
+                "score": 0.5844,
+                "n": 77
+              },
+              {
+                "key": "Gholdengo",
+                "score": 0.5833,
+                "n": 60
+              },
+              {
+                "key": "Whimsicott",
+                "score": 0.5608,
+                "n": 148
+              },
+              {
+                "key": "Sableye",
+                "score": 0.5439,
+                "n": 57
+              },
+              {
+                "key": "Staraptor-Mega",
+                "score": 0.5422,
+                "n": 83
+              }
+            ]
+          },
+          "1760": {
+            "usage": 0.0007235999999999999,
+            "raw_count": 4248,
+            "viability_ceiling": [
+              451,
+              73,
+              70,
+              55
+            ],
+            "top_items": [
+              {
+                "key": "glalitite",
+                "weight": 7.901129428168074
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "explosion",
+                "weight": 7.625996191816606
+              },
+              {
+                "key": "protect",
+                "weight": 6.732172896379543
+              },
+              {
+                "key": "bodyslam",
+                "weight": 3.7672707124520537
+              },
+              {
+                "key": "iceshard",
+                "weight": 3.3858244999619647
+              },
+              {
+                "key": "taunt",
+                "weight": 3.306531714352578
+              },
+              {
+                "key": "icespinner",
+                "weight": 2.2266682354130003
+              },
+              {
+                "key": "disable",
+                "weight": 0.7394424992813076
+              },
+              {
+                "key": "iciclecrash",
+                "weight": 0.677868235629953
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "refrigerate",
+                "weight": 7.901129428168074
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Jolly:2/32/0/0/0/32",
+                "weight": 2.7868904672317307
+              },
+              {
+                "key": "Jolly:0/32/0/0/2/32",
+                "weight": 2.312283153625788
+              },
+              {
+                "key": "Adamant:2/32/0/0/0/32",
+                "weight": 1.5229208658449975
+              },
+              {
+                "key": "Adamant:0/32/0/0/0/32",
+                "weight": 0.5128701434906542
+              },
+              {
+                "key": "Hasty:32/2/0/0/0/32",
+                "weight": 0.17611370506316965
+              },
+              {
+                "key": "Jolly:0/32/2/0/0/32",
+                "weight": 0.10556623406130433
+              },
+              {
+                "key": "Adamant:32/32/0/0/2/0",
+                "weight": 0.0877679830063055
+              },
+              {
+                "key": "Modest:32/0/0/32/0/2",
+                "weight": 0.06333446932336206
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Oranguru",
+                "weight": 3.4709411748390293
+              },
+              {
+                "key": "Torkoal",
+                "weight": 3.348418449685722
+              },
+              {
+                "key": "Garchomp",
+                "weight": 2.517706645558524
+              },
+              {
+                "key": "Sylveon",
+                "weight": 2.0287830968259355
+              },
+              {
+                "key": "Basculegion",
+                "weight": 1.9934303935061912
+              },
+              {
+                "key": "Mudsdale",
+                "weight": 1.9045436571496013
+              },
+              {
+                "key": "Whimsicott",
+                "weight": 1.8100417846150938
+              },
+              {
+                "key": "Clefable-Mega",
+                "weight": 1.7641994683962272
+              }
+            ],
+            "top_counters": []
+          }
+        }
+      }
+    }
+  ],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.00035119999999999997,
+        "raw_count": 955,
+        "viability_ceiling": [
+          104,
+          67,
+          64,
+          53
+        ],
+        "top_items": [
+          {
+            "key": "choicescarf",
+            "weight": 225.0
+          },
+          {
+            "key": "leftovers",
+            "weight": 198.0
+          },
+          {
+            "key": "focussash",
+            "weight": 145.0
+          },
+          {
+            "key": "brightpowder",
+            "weight": 138.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 99.0
+          },
+          {
+            "key": "silkscarf",
+            "weight": 28.0
+          },
+          {
+            "key": "widelens",
+            "weight": 19.0
+          },
+          {
+            "key": "chopleberry",
+            "weight": 15.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "protect",
+            "weight": 644.0
+          },
+          {
+            "key": "sheercold",
+            "weight": 438.0
+          },
+          {
+            "key": "freezedry",
+            "weight": 297.0
+          },
+          {
+            "key": "explosion",
+            "weight": 290.0
+          },
+          {
+            "key": "substitute",
+            "weight": 242.0
+          },
+          {
+            "key": "icywind",
+            "weight": 228.0
+          },
+          {
+            "key": "iceshard",
+            "weight": 181.0
+          },
+          {
+            "key": "frostbreath",
+            "weight": 166.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "moody",
+            "weight": 555.0
+          },
+          {
+            "key": "innerfocus",
+            "weight": 370.0
+          },
+          {
+            "key": "icebody",
+            "weight": 30.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 117.0
+          },
+          {
+            "key": "Timid:32/0/0/2/0/32",
+            "weight": 94.0
+          },
+          {
+            "key": "Adamant:0/32/0/0/0/32",
+            "weight": 72.0
+          },
+          {
+            "key": "Timid:0/0/17/0/17/32",
+            "weight": 57.0
+          },
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 50.0
+          },
+          {
+            "key": "Timid:32/0/0/0/2/32",
+            "weight": 42.0
+          },
+          {
+            "key": "Naive:2/30/0/2/0/32",
+            "weight": 39.0
+          },
+          {
+            "key": "Jolly:0/32/0/2/0/32",
+            "weight": 35.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Sinistcha",
+            "weight": 296.0
+          },
+          {
+            "key": "Sableye",
+            "weight": 161.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 151.0
+          },
+          {
+            "key": "Hawlucha-Mega",
+            "weight": 140.0
+          },
+          {
+            "key": "Whimsicott",
+            "weight": 139.0
+          },
+          {
+            "key": "Pelipper",
+            "weight": 130.0
+          },
+          {
+            "key": "Malamar-Mega",
+            "weight": 116.0
+          },
+          {
+            "key": "Excadrill",
+            "weight": 92.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Whimsicott",
+            "score": 0.54,
+            "n": 50
+          },
+          {
+            "key": "Incineroar",
+            "score": 0.4815,
+            "n": 54
+          }
+        ]
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Glalie.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Protect",
+        "pct": 87.1,
+        "rank": 1
+      },
+      {
+        "name": "Explosion",
+        "pct": 86.3,
+        "rank": 2
+      },
+      {
+        "name": "Ice Shard",
+        "pct": 32.1,
+        "rank": 3
+      },
+      {
+        "name": "Body Slam",
+        "pct": 31.0,
+        "rank": 4
+      },
+      {
+        "name": "Taunt",
+        "pct": 25.5,
+        "rank": 5
+      },
+      {
+        "name": "Freeze-Dry",
+        "pct": 22.8,
+        "rank": 6
+      },
+      {
+        "name": "Sheer Cold",
+        "pct": 19.9,
+        "rank": 7
+      },
+      {
+        "name": "Earthquake",
+        "pct": 14.8,
+        "rank": 8
+      },
+      {
+        "name": "Disable",
+        "pct": 9.8,
+        "rank": 9
+      },
+      {
+        "name": "Icicle Crash",
+        "pct": 7.6,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Glalitite",
+        "pct": 83.2,
+        "rank": 1
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 4.6,
+        "rank": 2
+      },
+      {
+        "name": "Leftovers",
+        "pct": 2.6,
+        "rank": 3
+      },
+      {
+        "name": "Focus Sash",
+        "pct": 2.3,
+        "rank": 4
+      },
+      {
+        "name": "Life Orb",
+        "pct": 2.0,
+        "rank": 5
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 1.0,
+        "rank": 6
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 0.8,
+        "rank": 7
+      },
+      {
+        "name": "Silk Scarf",
+        "pct": 0.7,
+        "rank": 8
+      },
+      {
+        "name": "Occa Berry",
+        "pct": 0.6,
+        "rank": 9
+      },
+      {
+        "name": "Bright Powder",
+        "pct": 0.5,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Inner Focus",
+        "pct": 72.8,
+        "rank": 1
+      },
+      {
+        "name": "Moody",
+        "pct": 22.9,
+        "rank": 2
+      },
+      {
+        "name": "Ice Body",
+        "pct": 4.4,
+        "rank": 3
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Jolly",
+        "pct": 47.6,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 1
+      },
+      {
+        "name": "Adamant",
+        "pct": 27.3,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 2
+      },
+      {
+        "name": "Timid",
+        "pct": 7.2,
+        "stat_up": "Speed",
+        "stat_down": "Attack",
+        "rank": 3
+      },
+      {
+        "name": "Modest",
+        "pct": 3.5,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Attack",
+        "rank": 4
+      },
+      {
+        "name": "Brave",
+        "pct": 2.7,
+        "stat_up": "Attack",
+        "stat_down": "Speed",
+        "rank": 5
+      },
+      {
+        "name": "Naughty",
+        "pct": 2.4,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Def",
+        "rank": 6
+      },
+      {
+        "name": "Hasty",
+        "pct": 2.0,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 7
+      },
+      {
+        "name": "Calm",
+        "pct": 1.7,
+        "stat_up": "Sp. Def",
+        "stat_down": "Attack",
+        "rank": 8
+      },
+      {
+        "name": "Quiet",
+        "pct": 1.2,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 9
+      },
+      {
+        "name": "Serious",
+        "pct": 1.2,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 45.5,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 8.9,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 3.7,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 3.6,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 1,
+          "spe": 32
+        },
+        "pct": 2.5,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 1.9,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 28,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 6
+        },
+        "pct": 1.8,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 1.7,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Oranguru",
+        "rank": 1
+      },
+      {
+        "name": "Torkoal",
+        "rank": 2
+      },
+      {
+        "name": "Sylveon",
+        "rank": 3
+      },
+      {
+        "name": "Mudsdale",
+        "rank": 4
+      },
+      {
+        "name": "Whimsicott",
+        "rank": 5
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 6
+      },
+      {
+        "name": "Araquanid",
+        "rank": 7
+      },
+      {
+        "name": "Clefable",
+        "rank": 8
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 9
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 10
+      }
+    ]
+  }
+}

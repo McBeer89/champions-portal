@@ -1,0 +1,1384 @@
+{
+  "showdown_name": "Flareon",
+  "form_text": null,
+  "personal_id": "0136000",
+  "national_dex": 136,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Fire"
+  ],
+  "stats": {
+    "hp": 65,
+    "atk": 130,
+    "def": 60,
+    "spa": 95,
+    "spd": 110,
+    "spe": 65
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 18,
+      "name": "Flash Fire",
+      "description": "Fire-type moves do not work on the Pokémon. Instead, they\ngive the Pokémon the Flash Fire status."
+    }
+  ],
+  "hidden_ability": {
+    "id": 62,
+    "name": "Guts",
+    "description": "When the Pokémon has a status condition, its Attack stat is\nboosted by 50%. Being burned does not halve the damage\ndealt by the Pokémon’s physical moves."
+  },
+  "weight_hg": 250,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 38,
+      "name": "Double-Edge",
+      "showdown_id": "doubleedge",
+      "type": "Normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 44,
+      "name": "Bite",
+      "showdown_id": "bite",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 46,
+      "name": "Roar",
+      "showdown_id": "roar",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": -6,
+      "target": "selected"
+    },
+    {
+      "id": 53,
+      "name": "Flamethrower",
+      "showdown_id": "flamethrower",
+      "type": "Fire",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 83,
+      "name": "Fire Spin",
+      "showdown_id": "firespin",
+      "type": "Fire",
+      "category": "special",
+      "power": 35,
+      "accuracy": 85,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 91,
+      "name": "Dig",
+      "showdown_id": "dig",
+      "type": "Ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 98,
+      "name": "Quick Attack",
+      "showdown_id": "quickattack",
+      "type": "Normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 116,
+      "name": "Focus Energy",
+      "showdown_id": "focusenergy",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 126,
+      "name": "Fire Blast",
+      "showdown_id": "fireblast",
+      "type": "Fire",
+      "category": "special",
+      "power": 110,
+      "accuracy": 85,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 174,
+      "name": "Curse",
+      "showdown_id": "curse",
+      "type": "Ghost",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "raw(13)"
+    },
+    {
+      "id": 175,
+      "name": "Flail",
+      "showdown_id": "flail",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 184,
+      "name": "Scary Face",
+      "showdown_id": "scaryface",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 189,
+      "name": "Mud-Slap",
+      "showdown_id": "mudslap",
+      "type": "Ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 197,
+      "name": "Detect",
+      "showdown_id": "detect",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 204,
+      "name": "Charm",
+      "showdown_id": "charm",
+      "type": "Fairy",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 226,
+      "name": "Baton Pass",
+      "showdown_id": "batonpass",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 241,
+      "name": "Sunny Day",
+      "showdown_id": "sunnyday",
+      "type": "Fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 247,
+      "name": "Shadow Ball",
+      "showdown_id": "shadowball",
+      "type": "Ghost",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 257,
+      "name": "Heat Wave",
+      "showdown_id": "heatwave",
+      "type": "Fire",
+      "category": "special",
+      "power": 95,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 261,
+      "name": "Will-O-Wisp",
+      "showdown_id": "willowisp",
+      "type": "Fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 85,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 273,
+      "name": "Wish",
+      "showdown_id": "wish",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 276,
+      "name": "Superpower",
+      "showdown_id": "superpower",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 281,
+      "name": "Yawn",
+      "showdown_id": "yawn",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 283,
+      "name": "Endeavor",
+      "showdown_id": "endeavor",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 304,
+      "name": "Hyper Voice",
+      "showdown_id": "hypervoice",
+      "type": "Normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 311,
+      "name": "Weather Ball",
+      "showdown_id": "weatherball",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 313,
+      "name": "Fake Tears",
+      "showdown_id": "faketears",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 315,
+      "name": "Overheat",
+      "showdown_id": "overheat",
+      "type": "Fire",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 321,
+      "name": "Tickle",
+      "showdown_id": "tickle",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 343,
+      "name": "Covet",
+      "showdown_id": "covet",
+      "type": "Normal",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 347,
+      "name": "Calm Mind",
+      "showdown_id": "calmmind",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 383,
+      "name": "Copycat",
+      "showdown_id": "copycat",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 387,
+      "name": "Last Resort",
+      "showdown_id": "lastresort",
+      "type": "Normal",
+      "category": "physical",
+      "power": 140,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 394,
+      "name": "Flare Blitz",
+      "showdown_id": "flareblitz",
+      "type": "Fire",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 424,
+      "name": "Fire Fang",
+      "showdown_id": "firefang",
+      "type": "Fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 436,
+      "name": "Lava Plume",
+      "showdown_id": "lavaplume",
+      "type": "Fire",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 488,
+      "name": "Flame Charge",
+      "showdown_id": "flamecharge",
+      "type": "Fire",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 500,
+      "name": "Stored Power",
+      "showdown_id": "storedpower",
+      "type": "Psychic",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 608,
+      "name": "Baby-Doll Eyes",
+      "showdown_id": "babydolleyes",
+      "type": "Fairy",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 807,
+      "name": "Burning Jealousy",
+      "showdown_id": "burningjealousy",
+      "type": "Fire",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 815,
+      "name": "Scorching Sands",
+      "showdown_id": "scorchingsands",
+      "type": "Ground",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 885,
+      "name": "Trailblaze",
+      "showdown_id": "trailblaze",
+      "type": "Grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 914,
+      "name": "Alluring Voice",
+      "showdown_id": "alluringvoice",
+      "type": "Fairy",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 915,
+      "name": "Temper Flare",
+      "showdown_id": "temperflare",
+      "type": "Fire",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.0005788999999999999,
+        "raw_count": 1490,
+        "viability_ceiling": [
+          150,
+          73,
+          70,
+          55
+        ],
+        "top_items": [
+          {
+            "key": "whiteherb",
+            "weight": 493.0
+          },
+          {
+            "key": "charcoal",
+            "weight": 335.0
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 114.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 99.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 95.0
+          },
+          {
+            "key": "mentalherb",
+            "weight": 74.0
+          },
+          {
+            "key": "expertbelt",
+            "weight": 67.0
+          },
+          {
+            "key": "leftovers",
+            "weight": 36.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "flareblitz",
+            "weight": 1339.0
+          },
+          {
+            "key": "superpower",
+            "weight": 904.0
+          },
+          {
+            "key": "protect",
+            "weight": 552.0
+          },
+          {
+            "key": "detect",
+            "weight": 477.0
+          },
+          {
+            "key": "quickattack",
+            "weight": 474.0
+          },
+          {
+            "key": "flamecharge",
+            "weight": 274.0
+          },
+          {
+            "key": "roar",
+            "weight": 226.0
+          },
+          {
+            "key": "willowisp",
+            "weight": 158.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "flashfire",
+            "weight": 1260.0
+          },
+          {
+            "key": "guts",
+            "weight": 230.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Brave:32/20/14/0/0/0",
+            "weight": 217.0
+          },
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 201.0
+          },
+          {
+            "key": "Adamant:32/32/2/0/0/0",
+            "weight": 124.0
+          },
+          {
+            "key": "Brave:32/32/2/0/0/0",
+            "weight": 115.0
+          },
+          {
+            "key": "Adamant:31/32/0/0/3/0",
+            "weight": 71.0
+          },
+          {
+            "key": "Jolly:1/32/0/0/1/32",
+            "weight": 67.0
+          },
+          {
+            "key": "Brave:17/32/17/0/0/0",
+            "weight": 44.0
+          },
+          {
+            "key": "Quiet:31/3/0/32/0/0",
+            "weight": 42.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Espeon",
+            "weight": 784.0
+          },
+          {
+            "key": "Sylveon",
+            "weight": 783.0
+          },
+          {
+            "key": "Umbreon",
+            "weight": 706.0
+          },
+          {
+            "key": "Vaporeon",
+            "weight": 699.0
+          },
+          {
+            "key": "Jolteon",
+            "weight": 653.0
+          },
+          {
+            "key": "Leafeon",
+            "weight": 177.0
+          },
+          {
+            "key": "Glaceon",
+            "weight": 157.0
+          },
+          {
+            "key": "Torkoal",
+            "weight": 73.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Incineroar",
+            "score": 0.5135,
+            "n": 74
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.0005382,
+        "raw_count": 1490,
+        "viability_ceiling": [
+          150,
+          73,
+          70,
+          55
+        ],
+        "top_items": [
+          {
+            "key": "whiteherb",
+            "weight": 4.511727562462558
+          },
+          {
+            "key": "charcoal",
+            "weight": 0.3811744805559845
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 0.3667938279595473
+          },
+          {
+            "key": "leftovers",
+            "weight": 0.06100170034732627
+          },
+          {
+            "key": "lifeorb",
+            "weight": 0.05886302068693927
+          },
+          {
+            "key": "widelens",
+            "weight": 0.021956248564886094
+          },
+          {
+            "key": "zoomlens",
+            "weight": 0.015414769779985293
+          },
+          {
+            "key": "choicescarf",
+            "weight": 0.015408989013574903
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "flareblitz",
+            "weight": 5.450476637696609
+          },
+          {
+            "key": "superpower",
+            "weight": 4.885492411763942
+          },
+          {
+            "key": "detect",
+            "weight": 4.502493858241964
+          },
+          {
+            "key": "roar",
+            "weight": 4.456376075998916
+          },
+          {
+            "key": "willowisp",
+            "weight": 0.43415245525420654
+          },
+          {
+            "key": "helpinghand",
+            "weight": 0.3763196642942212
+          },
+          {
+            "key": "sunnyday",
+            "weight": 0.35029293503581804
+          },
+          {
+            "key": "quickattack",
+            "weight": 0.33854878998268156
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "flashfire",
+            "weight": 5.339032964851961
+          },
+          {
+            "key": "guts",
+            "weight": 0.1216020700794278
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Brave:32/20/14/0/0/0",
+            "weight": 4.45761628070453
+          },
+          {
+            "key": "Impish:32/0/32/0/2/0",
+            "weight": 0.35058051857087746
+          },
+          {
+            "key": "Brave:32/32/2/0/0/0",
+            "weight": 0.2067566255778298
+          },
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 0.17990286260636712
+          },
+          {
+            "key": "Adamant:32/32/2/0/0/0",
+            "weight": 0.08019598852753518
+          },
+          {
+            "key": "Lonely:32/32/0/1/1/0",
+            "weight": 0.0401331301787457
+          },
+          {
+            "key": "Impish:32/4/30/0/0/0",
+            "weight": 0.024805185434714605
+          },
+          {
+            "key": "Brave:32/32/0/0/2/0",
+            "weight": 0.0224305211432268
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Sylveon",
+            "weight": 4.727700827877958
+          },
+          {
+            "key": "Espeon",
+            "weight": 4.724554842155846
+          },
+          {
+            "key": "Umbreon",
+            "weight": 4.663855141321154
+          },
+          {
+            "key": "Vaporeon",
+            "weight": 4.450027054975795
+          },
+          {
+            "key": "Jolteon",
+            "weight": 4.362413398068948
+          },
+          {
+            "key": "Glaceon",
+            "weight": 0.3991601728321215
+          },
+          {
+            "key": "Leafeon",
+            "weight": 0.37489656775124247
+          },
+          {
+            "key": "Ninetales-Alola",
+            "weight": 0.06801171843237508
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Flareon.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Flare Blitz",
+        "pct": 89.1,
+        "rank": 1
+      },
+      {
+        "name": "Superpower",
+        "pct": 58.0,
+        "rank": 2
+      },
+      {
+        "name": "Quick Attack",
+        "pct": 43.3,
+        "rank": 3
+      },
+      {
+        "name": "Protect",
+        "pct": 36.4,
+        "rank": 4
+      },
+      {
+        "name": "Detect",
+        "pct": 30.4,
+        "rank": 5
+      },
+      {
+        "name": "Flame Charge",
+        "pct": 11.4,
+        "rank": 6
+      },
+      {
+        "name": "Overheat",
+        "pct": 10.6,
+        "rank": 7
+      },
+      {
+        "name": "Will-O-Wisp",
+        "pct": 9.8,
+        "rank": 8
+      },
+      {
+        "name": "Baby-Doll Eyes",
+        "pct": 9.6,
+        "rank": 9
+      },
+      {
+        "name": "Endeavor",
+        "pct": 8.2,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Charcoal",
+        "pct": 26.7,
+        "rank": 1
+      },
+      {
+        "name": "White Herb",
+        "pct": 13.4,
+        "rank": 2
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 12.5,
+        "rank": 3
+      },
+      {
+        "name": "Life Orb",
+        "pct": 8.7,
+        "rank": 4
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 5.8,
+        "rank": 5
+      },
+      {
+        "name": "Leftovers",
+        "pct": 4.9,
+        "rank": 6
+      },
+      {
+        "name": "Focus Sash",
+        "pct": 4.9,
+        "rank": 7
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 4.5,
+        "rank": 8
+      },
+      {
+        "name": "Charti Berry",
+        "pct": 3.3,
+        "rank": 9
+      },
+      {
+        "name": "Expert Belt",
+        "pct": 2.9,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Flash Fire",
+        "pct": 92.0,
+        "rank": 1
+      },
+      {
+        "name": "Guts",
+        "pct": 8.0,
+        "rank": 2
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Adamant",
+        "pct": 45.0,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 1
+      },
+      {
+        "name": "Brave",
+        "pct": 18.8,
+        "stat_up": "Attack",
+        "stat_down": "Speed",
+        "rank": 2
+      },
+      {
+        "name": "Jolly",
+        "pct": 15.8,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 3
+      },
+      {
+        "name": "Impish",
+        "pct": 10.9,
+        "stat_up": "Defense",
+        "stat_down": "Sp. Atk",
+        "rank": 4
+      },
+      {
+        "name": "Careful",
+        "pct": 2.8,
+        "stat_up": "Sp. Def",
+        "stat_down": "Sp. Atk",
+        "rank": 5
+      },
+      {
+        "name": "Quiet",
+        "pct": 2.5,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 6
+      },
+      {
+        "name": "Relaxed",
+        "pct": 1.4,
+        "stat_up": "Defense",
+        "stat_down": "Speed",
+        "rank": 7
+      },
+      {
+        "name": "Naughty",
+        "pct": 0.7,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Def",
+        "rank": 8
+      },
+      {
+        "name": "Lonely",
+        "pct": 0.5,
+        "stat_up": "Attack",
+        "stat_down": "Defense",
+        "rank": 9
+      },
+      {
+        "name": "Sassy",
+        "pct": 0.5,
+        "stat_up": "Sp. Def",
+        "stat_down": "Speed",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 0
+        },
+        "pct": 16.7,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 12.8,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2
+        },
+        "pct": 7.6,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 6.3,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 5.3,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 27,
+          "atk": 20,
+          "def": 7,
+          "spa": 0,
+          "spd": 0,
+          "spe": 12
+        },
+        "pct": 3.0,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 32,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 2.9,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 16,
+          "def": 15,
+          "spa": 0,
+          "spd": 32,
+          "spe": 3
+        },
+        "pct": 2.8,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Vaporeon",
+        "rank": 1
+      },
+      {
+        "name": "Sylveon",
+        "rank": 2
+      },
+      {
+        "name": "Umbreon",
+        "rank": 3
+      },
+      {
+        "name": "Espeon",
+        "rank": 4
+      },
+      {
+        "name": "Jolteon",
+        "rank": 5
+      },
+      {
+        "name": "Glaceon",
+        "rank": 6
+      },
+      {
+        "name": "Leafeon",
+        "rank": 7
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 8
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 9
+      },
+      {
+        "name": "Whimsicott",
+        "rank": 10
+      }
+    ]
+  }
+}

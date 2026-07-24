@@ -1,0 +1,1614 @@
+{
+  "showdown_name": "Meganium",
+  "form_text": null,
+  "personal_id": "0154000",
+  "national_dex": 154,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Grass"
+  ],
+  "stats": {
+    "hp": 80,
+    "atk": 82,
+    "def": 100,
+    "spa": 83,
+    "spd": 100,
+    "spe": 80
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 65,
+      "name": "Overgrow",
+      "description": "Boosts the power of the Pokémon’s Grass-type moves by 50%\nwhen its HP drops to 1/3 or less of its max."
+    }
+  ],
+  "hidden_ability": {
+    "id": 102,
+    "name": "Leaf Guard",
+    "description": "The Pokémon is immune to status conditions in harsh sunlight."
+  },
+  "weight_hg": 1005,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 14,
+      "name": "Swords Dance",
+      "showdown_id": "swordsdance",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 38,
+      "name": "Double-Edge",
+      "showdown_id": "doubleedge",
+      "type": "Normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 68,
+      "name": "Counter",
+      "showdown_id": "counter",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": -5,
+      "target": "raw(13)"
+    },
+    {
+      "id": 73,
+      "name": "Leech Seed",
+      "showdown_id": "leechseed",
+      "type": "Grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 76,
+      "name": "Solar Beam",
+      "showdown_id": "solarbeam",
+      "type": "Grass",
+      "category": "special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 77,
+      "name": "Poison Powder",
+      "showdown_id": "poisonpowder",
+      "type": "Poison",
+      "category": "status",
+      "power": 0,
+      "accuracy": 75,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 80,
+      "name": "Petal Dance",
+      "showdown_id": "petaldance",
+      "type": "Grass",
+      "category": "special",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "field"
+    },
+    {
+      "id": 89,
+      "name": "Earthquake",
+      "showdown_id": "earthquake",
+      "type": "Ground",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 113,
+      "name": "Light Screen",
+      "showdown_id": "lightscreen",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 115,
+      "name": "Reflect",
+      "showdown_id": "reflect",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 174,
+      "name": "Curse",
+      "showdown_id": "curse",
+      "type": "Ghost",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "raw(13)"
+    },
+    {
+      "id": 175,
+      "name": "Flail",
+      "showdown_id": "flail",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 189,
+      "name": "Mud-Slap",
+      "showdown_id": "mudslap",
+      "type": "Ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 200,
+      "name": "Outrage",
+      "showdown_id": "outrage",
+      "type": "Dragon",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "field"
+    },
+    {
+      "id": 202,
+      "name": "Giga Drain",
+      "showdown_id": "gigadrain",
+      "type": "Grass",
+      "category": "special",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 204,
+      "name": "Charm",
+      "showdown_id": "charm",
+      "type": "Fairy",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 219,
+      "name": "Safeguard",
+      "showdown_id": "safeguard",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 227,
+      "name": "Encore",
+      "showdown_id": "encore",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 230,
+      "name": "Sweet Scent",
+      "showdown_id": "sweetscent",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 231,
+      "name": "Iron Tail",
+      "showdown_id": "irontail",
+      "type": "Steel",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 235,
+      "name": "Synthesis",
+      "showdown_id": "synthesis",
+      "type": "Grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 241,
+      "name": "Sunny Day",
+      "showdown_id": "sunnyday",
+      "type": "Fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 246,
+      "name": "Ancient Power",
+      "showdown_id": "ancientpower",
+      "type": "Rock",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 275,
+      "name": "Ingrain",
+      "showdown_id": "ingrain",
+      "type": "Grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 282,
+      "name": "Knock Off",
+      "showdown_id": "knockoff",
+      "type": "Dark",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 283,
+      "name": "Endeavor",
+      "showdown_id": "endeavor",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 311,
+      "name": "Weather Ball",
+      "showdown_id": "weatherball",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 313,
+      "name": "Fake Tears",
+      "showdown_id": "faketears",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 331,
+      "name": "Bullet Seed",
+      "showdown_id": "bulletseed",
+      "type": "Grass",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 338,
+      "name": "Frenzy Plant",
+      "showdown_id": "frenzyplant",
+      "type": "Grass",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 345,
+      "name": "Magical Leaf",
+      "showdown_id": "magicalleaf",
+      "type": "Grass",
+      "category": "special",
+      "power": 60,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 348,
+      "name": "Leaf Blade",
+      "showdown_id": "leafblade",
+      "type": "Grass",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 402,
+      "name": "Seed Bomb",
+      "showdown_id": "seedbomb",
+      "type": "Grass",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 412,
+      "name": "Energy Ball",
+      "showdown_id": "energyball",
+      "type": "Grass",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 414,
+      "name": "Earth Power",
+      "showdown_id": "earthpower",
+      "type": "Ground",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 428,
+      "name": "Zen Headbutt",
+      "showdown_id": "zenheadbutt",
+      "type": "Psychic",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 437,
+      "name": "Leaf Storm",
+      "showdown_id": "leafstorm",
+      "type": "Grass",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 447,
+      "name": "Grass Knot",
+      "showdown_id": "grassknot",
+      "type": "Grass",
+      "category": "special",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 505,
+      "name": "Heal Pulse",
+      "showdown_id": "healpulse",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 523,
+      "name": "Bulldoze",
+      "showdown_id": "bulldoze",
+      "type": "Ground",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 525,
+      "name": "Dragon Tail",
+      "showdown_id": "dragontail",
+      "type": "Dragon",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": -6,
+      "target": "selected"
+    },
+    {
+      "id": 572,
+      "name": "Petal Blizzard",
+      "showdown_id": "petalblizzard",
+      "type": "Grass",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 580,
+      "name": "Grassy Terrain",
+      "showdown_id": "grassyterrain",
+      "type": "Grass",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 605,
+      "name": "Dazzling Gleam",
+      "showdown_id": "dazzlinggleam",
+      "type": "Fairy",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 669,
+      "name": "Solar Blade",
+      "showdown_id": "solarblade",
+      "type": "Grass",
+      "category": "physical",
+      "power": 125,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 676,
+      "name": "Pollen Puff",
+      "showdown_id": "pollenpuff",
+      "type": "Bug",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 707,
+      "name": "Stomping Tantrum",
+      "showdown_id": "stompingtantrum",
+      "type": "Ground",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 776,
+      "name": "Body Press",
+      "showdown_id": "bodypress",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 803,
+      "name": "Grassy Glide",
+      "showdown_id": "grassyglide",
+      "type": "Grass",
+      "category": "physical",
+      "power": 55,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 885,
+      "name": "Trailblaze",
+      "showdown_id": "trailblaze",
+      "type": "Grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [
+    {
+      "showdown_name": "Meganium-Mega",
+      "form_text": "Mega Meganium",
+      "types": [
+        "Grass",
+        "Fairy"
+      ],
+      "stats": {
+        "hp": 80,
+        "atk": 92,
+        "def": 115,
+        "spa": 143,
+        "spd": 115,
+        "spe": 80
+      },
+      "ability": {
+        "slot": 0,
+        "id": 315,
+        "name": "Mega Sol",
+        "description": "Even when the sunlight has not turned harsh, the Pokémon can\nuse its moves as if the weather were harsh sunlight."
+      },
+      "abilities": [
+        {
+          "slot": 0,
+          "id": 315,
+          "name": "Mega Sol",
+          "description": "Even when the sunlight has not turned harsh, the Pokémon can\nuse its moves as if the weather were harsh sunlight."
+        }
+      ],
+      "weight_hg": 2010,
+      "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Mega%20Meganium.png",
+      "battle_data": {
+        "present": false,
+        "source": "championsbattledata.com"
+      },
+      "usage": {
+        "present": true,
+        "by_cutoff": {
+          "0": {
+            "usage": 0.0163795,
+            "raw_count": 42929,
+            "viability_ceiling": [
+              4060,
+              76,
+              70,
+              59
+            ],
+            "top_items": [
+              {
+                "key": "meganiumite",
+                "weight": 42929.0
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "solarbeam",
+                "weight": 40726.0
+              },
+              {
+                "key": "weatherball",
+                "weight": 38314.0
+              },
+              {
+                "key": "dazzlinggleam",
+                "weight": 37502.0
+              },
+              {
+                "key": "protect",
+                "weight": 35499.0
+              },
+              {
+                "key": "synthesis",
+                "weight": 8137.0
+              },
+              {
+                "key": "earthpower",
+                "weight": 5454.0
+              },
+              {
+                "key": "gigadrain",
+                "weight": 1447.0
+              },
+              {
+                "key": "ancientpower",
+                "weight": 890.0
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "megasol",
+                "weight": 42929.0
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 8639.0
+              },
+              {
+                "key": "Modest:32/0/0/32/0/2",
+                "weight": 4280.0
+              },
+              {
+                "key": "Modest:32/0/0/32/2/0",
+                "weight": 2172.0
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 1897.0
+              },
+              {
+                "key": "Modest:32/0/2/32/0/0",
+                "weight": 1649.0
+              },
+              {
+                "key": "Quiet:32/0/0/32/2/0",
+                "weight": 879.0
+              },
+              {
+                "key": "Quiet:32/0/2/32/0/0",
+                "weight": 857.0
+              },
+              {
+                "key": "Modest:32/0/0/32/0/0",
+                "weight": 726.0
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Pelipper",
+                "weight": 17384.0
+              },
+              {
+                "key": "Archaludon",
+                "weight": 14127.0
+              },
+              {
+                "key": "Basculegion",
+                "weight": 10562.0
+              },
+              {
+                "key": "Swampert-Mega",
+                "weight": 8465.0
+              },
+              {
+                "key": "Farigiraf",
+                "weight": 7322.0
+              },
+              {
+                "key": "Incineroar",
+                "weight": 7214.0
+              },
+              {
+                "key": "Sneasler",
+                "weight": 6551.0
+              },
+              {
+                "key": "Sableye",
+                "weight": 5897.0
+              }
+            ],
+            "top_counters": [
+              {
+                "key": "Camerupt-Mega",
+                "score": 0.6094,
+                "n": 64
+              },
+              {
+                "key": "Charizard-Mega-Y",
+                "score": 0.5731,
+                "n": 417
+              },
+              {
+                "key": "Venusaur",
+                "score": 0.5529,
+                "n": 85
+              },
+              {
+                "key": "Torkoal",
+                "score": 0.5451,
+                "n": 455
+              },
+              {
+                "key": "Pyroar-Mega",
+                "score": 0.5424,
+                "n": 118
+              },
+              {
+                "key": "Delphox-Mega",
+                "score": 0.5354,
+                "n": 127
+              },
+              {
+                "key": "Arcanine-Hisui",
+                "score": 0.5286,
+                "n": 70
+              },
+              {
+                "key": "Jolteon",
+                "score": 0.5246,
+                "n": 61
+              }
+            ]
+          },
+          "1760": {
+            "usage": 0.0105614,
+            "raw_count": 42929,
+            "viability_ceiling": [
+              4060,
+              76,
+              70,
+              59
+            ],
+            "top_items": [
+              {
+                "key": "meganiumite",
+                "weight": 108.78882056706239
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "solarbeam",
+                "weight": 104.43345643268098
+              },
+              {
+                "key": "weatherball",
+                "weight": 101.11845598397332
+              },
+              {
+                "key": "protect",
+                "weight": 100.18735548412593
+              },
+              {
+                "key": "dazzlinggleam",
+                "weight": 100.12248042843375
+              },
+              {
+                "key": "synthesis",
+                "weight": 11.982367488798864
+              },
+              {
+                "key": "earthpower",
+                "weight": 10.245482988392025
+              },
+              {
+                "key": "gigadrain",
+                "weight": 3.0859196453604287
+              },
+              {
+                "key": "ancientpower",
+                "weight": 1.1515326748354082
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "megasol",
+                "weight": 108.78882056706239
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 11.425670549132173
+              },
+              {
+                "key": "Modest:32/0/0/32/0/2",
+                "weight": 9.460787162563937
+              },
+              {
+                "key": "Modest:32/0/0/32/2/0",
+                "weight": 7.205452288191404
+              },
+              {
+                "key": "Mild:26/0/0/17/0/23",
+                "weight": 4.339450197463701
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 4.0624887269683185
+              },
+              {
+                "key": "Quiet:32/0/1/32/1/0",
+                "weight": 3.467769674183013
+              },
+              {
+                "key": "Modest:32/0/0/28/3/3",
+                "weight": 3.3643436343349378
+              },
+              {
+                "key": "Modest:32/0/2/32/0/0",
+                "weight": 3.1461568979808683
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Pelipper",
+                "weight": 49.55391557243535
+              },
+              {
+                "key": "Archaludon",
+                "weight": 40.30108431332138
+              },
+              {
+                "key": "Swampert-Mega",
+                "weight": 33.06251962406242
+              },
+              {
+                "key": "Basculegion",
+                "weight": 30.988416120532342
+              },
+              {
+                "key": "Farigiraf",
+                "weight": 26.88701456636723
+              },
+              {
+                "key": "Sneasler",
+                "weight": 25.450657076536164
+              },
+              {
+                "key": "Incineroar",
+                "weight": 23.529981457648724
+              },
+              {
+                "key": "Garchomp",
+                "weight": 16.012714584145776
+              }
+            ],
+            "top_counters": []
+          }
+        }
+      }
+    }
+  ],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.00011429999999999999,
+        "raw_count": 311,
+        "viability_ceiling": [
+          45,
+          63,
+          63,
+          52
+        ],
+        "top_items": [
+          {
+            "key": "leftovers",
+            "weight": 131.0
+          },
+          {
+            "key": "nothing",
+            "weight": 50.0
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 45.0
+          },
+          {
+            "key": "widelens",
+            "weight": 28.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 12.0
+          },
+          {
+            "key": "cobaberry",
+            "weight": 12.0
+          },
+          {
+            "key": "miracleseed",
+            "weight": 7.0
+          },
+          {
+            "key": "bigroot",
+            "weight": 7.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "protect",
+            "weight": 174.0
+          },
+          {
+            "key": "leechseed",
+            "weight": 150.0
+          },
+          {
+            "key": "dazzlinggleam",
+            "weight": 143.0
+          },
+          {
+            "key": "gigadrain",
+            "weight": 85.0
+          },
+          {
+            "key": "leafblade",
+            "weight": 62.0
+          },
+          {
+            "key": "pollenpuff",
+            "weight": 61.0
+          },
+          {
+            "key": "helpinghand",
+            "weight": 56.0
+          },
+          {
+            "key": "ancientpower",
+            "weight": 47.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "overgrow",
+            "weight": 227.0
+          },
+          {
+            "key": "leafguard",
+            "weight": 84.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Hardy:32/0/11/0/12/5",
+            "weight": 39.0
+          },
+          {
+            "key": "Bold:0/0/16/32/18/0",
+            "weight": 34.0
+          },
+          {
+            "key": "Calm:0/0/32/1/24/9",
+            "weight": 33.0
+          },
+          {
+            "key": "Hardy:0/32/32/0/0/2",
+            "weight": 28.0
+          },
+          {
+            "key": "Modest:32/0/16/2/16/0",
+            "weight": 14.0
+          },
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 13.0
+          },
+          {
+            "key": "Quiet:32/9/0/0/25/0",
+            "weight": 11.0
+          },
+          {
+            "key": "Modest:32/0/2/32/0/0",
+            "weight": 11.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Pelipper",
+            "weight": 68.0
+          },
+          {
+            "key": "Archaludon",
+            "weight": 60.0
+          },
+          {
+            "key": "Bellibolt",
+            "weight": 60.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 52.0
+          },
+          {
+            "key": "Garchomp",
+            "weight": 51.0
+          },
+          {
+            "key": "Swampert-Mega",
+            "weight": 39.0
+          },
+          {
+            "key": "Empoleon",
+            "weight": 37.0
+          },
+          {
+            "key": "Primarina",
+            "weight": 35.0
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Meganium.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Solar Beam",
+        "pct": 95.2,
+        "rank": 1
+      },
+      {
+        "name": "Dazzling Gleam",
+        "pct": 89.1,
+        "rank": 2
+      },
+      {
+        "name": "Weather Ball",
+        "pct": 86.2,
+        "rank": 3
+      },
+      {
+        "name": "Protect",
+        "pct": 16.7,
+        "rank": 4
+      },
+      {
+        "name": "Earth Power",
+        "pct": 11.2,
+        "rank": 5
+      },
+      {
+        "name": "Synthesis",
+        "pct": 11.2,
+        "rank": 6
+      },
+      {
+        "name": "Giga Drain",
+        "pct": 3.9,
+        "rank": 7
+      },
+      {
+        "name": "Ancient Power",
+        "pct": 2.6,
+        "rank": 8
+      },
+      {
+        "name": "Pollen Puff",
+        "pct": 2.0,
+        "rank": 9
+      },
+      {
+        "name": "Leaf Storm",
+        "pct": 1.1,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Meganiumite",
+        "pct": 96.7,
+        "rank": 1
+      },
+      {
+        "name": "Leftovers",
+        "pct": 0.3,
+        "rank": 2
+      },
+      {
+        "name": "Iron Ball",
+        "pct": 0.2,
+        "rank": 3
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 0.1,
+        "rank": 4
+      },
+      {
+        "name": "Light Clay",
+        "pct": 0.1,
+        "rank": 5
+      },
+      {
+        "name": "Miracle Seed",
+        "pct": 0.1,
+        "rank": 6
+      },
+      {
+        "name": "Life Orb",
+        "pct": 0.0,
+        "rank": 7
+      },
+      {
+        "name": "Bright Powder",
+        "pct": 0.0,
+        "rank": 8
+      },
+      {
+        "name": "Lum Berry",
+        "pct": 0.0,
+        "rank": 9
+      },
+      {
+        "name": "Focus Sash",
+        "pct": 0.0,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Overgrow",
+        "pct": 52.8,
+        "rank": 1
+      },
+      {
+        "name": "Leaf Guard",
+        "pct": 47.2,
+        "rank": 2
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Modest",
+        "pct": 79.2,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Attack",
+        "rank": 1
+      },
+      {
+        "name": "Quiet",
+        "pct": 9.6,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 2
+      },
+      {
+        "name": "Timid",
+        "pct": 4.6,
+        "stat_up": "Speed",
+        "stat_down": "Attack",
+        "rank": 3
+      },
+      {
+        "name": "Bold",
+        "pct": 3.0,
+        "stat_up": "Defense",
+        "stat_down": "Attack",
+        "rank": 4
+      },
+      {
+        "name": "Calm",
+        "pct": 1.5,
+        "stat_up": "Sp. Def",
+        "stat_down": "Attack",
+        "rank": 5
+      },
+      {
+        "name": "Relaxed",
+        "pct": 1.0,
+        "stat_up": "Defense",
+        "stat_down": "Speed",
+        "rank": 6
+      },
+      {
+        "name": "Docile",
+        "pct": 0.3,
+        "stat_up": "Sp. Def",
+        "stat_down": "Speed",
+        "rank": 7
+      },
+      {
+        "name": "Sassy",
+        "pct": 0.3,
+        "stat_up": "Sp. Def",
+        "stat_down": "Speed",
+        "rank": 8
+      },
+      {
+        "name": "Mild",
+        "pct": 0.1,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Defense",
+        "rank": 9
+      },
+      {
+        "name": "Adamant",
+        "pct": 0.1,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 2
+        },
+        "pct": 22.3,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 0
+        },
+        "pct": 8.5,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 8.1,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 6.8,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 1,
+          "spa": 32,
+          "spd": 1,
+          "spe": 0
+        },
+        "pct": 3.1,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 32,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 1.4,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 32,
+          "spa": 32,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 1.3,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 1.2,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Pelipper",
+        "rank": 1
+      },
+      {
+        "name": "Archaludon",
+        "rank": 2
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 3
+      },
+      {
+        "name": "Sneasler",
+        "rank": 4
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 5
+      },
+      {
+        "name": "Garchomp",
+        "rank": 6
+      },
+      {
+        "name": "Swampert",
+        "rank": 7
+      },
+      {
+        "name": "Sableye",
+        "rank": 8
+      },
+      {
+        "name": "Incineroar",
+        "rank": 9
+      },
+      {
+        "name": "Aerodactyl",
+        "rank": 10
+      }
+    ]
+  }
+}

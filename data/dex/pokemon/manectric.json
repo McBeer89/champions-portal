@@ -1,0 +1,1686 @@
+{
+  "showdown_name": "Manectric",
+  "form_text": null,
+  "personal_id": "0310000",
+  "national_dex": 310,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "00",
+  "types": [
+    "Electric"
+  ],
+  "stats": {
+    "hp": 70,
+    "atk": 75,
+    "def": 60,
+    "spa": 105,
+    "spd": 60,
+    "spe": 105
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 9,
+      "name": "Static",
+      "description": "When the Pokémon is hit by a contact move, the attacker has a\n30% chance of being paralyzed."
+    },
+    {
+      "slot": 1,
+      "id": 31,
+      "name": "Lightning Rod",
+      "description": "The Pokémon draws in all Electric-type moves. These moves do\nnot work on the Pokémon. Instead, they boost its Sp. Atk stat by\n1 stage."
+    }
+  ],
+  "hidden_ability": {
+    "id": 58,
+    "name": "Minus",
+    "description": "Boosts the Pokémon’s Sp. Atk stat by 50% if an ally with the\nPlus or Minus Ability is also in battle."
+  },
+  "weight_hg": 402,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 44,
+      "name": "Bite",
+      "showdown_id": "bite",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 46,
+      "name": "Roar",
+      "showdown_id": "roar",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": -6,
+      "target": "selected"
+    },
+    {
+      "id": 53,
+      "name": "Flamethrower",
+      "showdown_id": "flamethrower",
+      "type": "Fire",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 63,
+      "name": "Hyper Beam",
+      "showdown_id": "hyperbeam",
+      "type": "Normal",
+      "category": "special",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 85,
+      "name": "Thunderbolt",
+      "showdown_id": "thunderbolt",
+      "type": "Electric",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 86,
+      "name": "Thunder Wave",
+      "showdown_id": "thunderwave",
+      "type": "Electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 90,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 87,
+      "name": "Thunder",
+      "showdown_id": "thunder",
+      "type": "Electric",
+      "category": "special",
+      "power": 110,
+      "accuracy": 70,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 97,
+      "name": "Agility",
+      "showdown_id": "agility",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 98,
+      "name": "Quick Attack",
+      "showdown_id": "quickattack",
+      "type": "Normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 113,
+      "name": "Light Screen",
+      "showdown_id": "lightscreen",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(12)"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 168,
+      "name": "Thief",
+      "showdown_id": "thief",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 174,
+      "name": "Curse",
+      "showdown_id": "curse",
+      "type": "Ghost",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "raw(13)"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 184,
+      "name": "Scary Face",
+      "showdown_id": "scaryface",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 213,
+      "name": "Attract",
+      "showdown_id": "attract",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 231,
+      "name": "Iron Tail",
+      "showdown_id": "irontail",
+      "type": "Steel",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 240,
+      "name": "Rain Dance",
+      "showdown_id": "raindance",
+      "type": "Water",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 242,
+      "name": "Crunch",
+      "showdown_id": "crunch",
+      "type": "Dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 253,
+      "name": "Uproar",
+      "showdown_id": "uproar",
+      "type": "Normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "field"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 268,
+      "name": "Charge",
+      "showdown_id": "charge",
+      "type": "Electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 304,
+      "name": "Hyper Voice",
+      "showdown_id": "hypervoice",
+      "type": "Normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 315,
+      "name": "Overheat",
+      "showdown_id": "overheat",
+      "type": "Fire",
+      "category": "special",
+      "power": 130,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 336,
+      "name": "Howl",
+      "showdown_id": "howl",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "all"
+    },
+    {
+      "id": 351,
+      "name": "Shock Wave",
+      "showdown_id": "shockwave",
+      "type": "Electric",
+      "category": "special",
+      "power": 60,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 415,
+      "name": "Switcheroo",
+      "showdown_id": "switcheroo",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 422,
+      "name": "Thunder Fang",
+      "showdown_id": "thunderfang",
+      "type": "Electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 423,
+      "name": "Ice Fang",
+      "showdown_id": "icefang",
+      "type": "Ice",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 424,
+      "name": "Fire Fang",
+      "showdown_id": "firefang",
+      "type": "Fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 435,
+      "name": "Discharge",
+      "showdown_id": "discharge",
+      "type": "Electric",
+      "category": "special",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 451,
+      "name": "Charge Beam",
+      "showdown_id": "chargebeam",
+      "type": "Electric",
+      "category": "special",
+      "power": 50,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 486,
+      "name": "Electro Ball",
+      "showdown_id": "electroball",
+      "type": "Electric",
+      "category": "special",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 521,
+      "name": "Volt Switch",
+      "showdown_id": "voltswitch",
+      "type": "Electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 528,
+      "name": "Wild Charge",
+      "showdown_id": "wildcharge",
+      "type": "Electric",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 555,
+      "name": "Snarl",
+      "showdown_id": "snarl",
+      "type": "Dark",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 598,
+      "name": "Eerie Impulse",
+      "showdown_id": "eerieimpulse",
+      "type": "Electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 604,
+      "name": "Electric Terrain",
+      "showdown_id": "electricterrain",
+      "type": "Electric",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 706,
+      "name": "Psychic Fangs",
+      "showdown_id": "psychicfangs",
+      "type": "Psychic",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 804,
+      "name": "Rising Voltage",
+      "showdown_id": "risingvoltage",
+      "type": "Electric",
+      "category": "special",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 884,
+      "name": "Pounce",
+      "showdown_id": "pounce",
+      "type": "Bug",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 885,
+      "name": "Trailblaze",
+      "showdown_id": "trailblaze",
+      "type": "Grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 916,
+      "name": "Supercell Slam",
+      "showdown_id": "supercellslam",
+      "type": "Electric",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [
+    {
+      "showdown_name": "Manectric-Mega",
+      "form_text": "Mega Manectric",
+      "types": [
+        "Electric"
+      ],
+      "stats": {
+        "hp": 70,
+        "atk": 75,
+        "def": 80,
+        "spa": 135,
+        "spd": 80,
+        "spe": 135
+      },
+      "ability": {
+        "slot": 0,
+        "id": 22,
+        "name": "Intimidate",
+        "description": "When the Pokémon enters a battle, it lowers the Attack stats of\nopponents by 1 stage."
+      },
+      "abilities": [
+        {
+          "slot": 0,
+          "id": 22,
+          "name": "Intimidate",
+          "description": "When the Pokémon enters a battle, it lowers the Attack stats of\nopponents by 1 stage."
+        }
+      ],
+      "weight_hg": 440,
+      "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Mega%20Manectric.png",
+      "battle_data": {
+        "present": false,
+        "source": "championsbattledata.com"
+      },
+      "usage": {
+        "present": true,
+        "by_cutoff": {
+          "0": {
+            "usage": 0.0023657,
+            "raw_count": 6269,
+            "viability_ceiling": [
+              694,
+              74,
+              68,
+              57
+            ],
+            "top_items": [
+              {
+                "key": "manectite",
+                "weight": 6269.0
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "protect",
+                "weight": 4995.0
+              },
+              {
+                "key": "voltswitch",
+                "weight": 4784.0
+              },
+              {
+                "key": "thunderbolt",
+                "weight": 3204.0
+              },
+              {
+                "key": "snarl",
+                "weight": 3121.0
+              },
+              {
+                "key": "overheat",
+                "weight": 2253.0
+              },
+              {
+                "key": "flamethrower",
+                "weight": 1842.0
+              },
+              {
+                "key": "thunder",
+                "weight": 1390.0
+              },
+              {
+                "key": "discharge",
+                "weight": 1228.0
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "intimidate",
+                "weight": 6269.0
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 3351.0
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 360.0
+              },
+              {
+                "key": "Timid:0/0/0/32/0/32",
+                "weight": 228.0
+              },
+              {
+                "key": "Timid:32/0/0/2/0/32",
+                "weight": 133.0
+              },
+              {
+                "key": "Timid:0/0/0/32/2/32",
+                "weight": 131.0
+              },
+              {
+                "key": "Timid:6/0/0/32/0/28",
+                "weight": 130.0
+              },
+              {
+                "key": "Timid:26/0/0/8/0/32",
+                "weight": 126.0
+              },
+              {
+                "key": "Timid:28/0/5/1/0/32",
+                "weight": 96.0
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Pelipper",
+                "weight": 1499.0
+              },
+              {
+                "key": "Sinistcha",
+                "weight": 1226.0
+              },
+              {
+                "key": "Basculegion",
+                "weight": 1023.0
+              },
+              {
+                "key": "Garchomp",
+                "weight": 994.0
+              },
+              {
+                "key": "Incineroar",
+                "weight": 884.0
+              },
+              {
+                "key": "Sneasler",
+                "weight": 883.0
+              },
+              {
+                "key": "Whimsicott",
+                "weight": 835.0
+              },
+              {
+                "key": "Archaludon",
+                "weight": 734.0
+              }
+            ],
+            "top_counters": [
+              {
+                "key": "Sylveon",
+                "score": 0.6026,
+                "n": 78
+              },
+              {
+                "key": "Charizard-Mega-Y",
+                "score": 0.5909,
+                "n": 88
+              },
+              {
+                "key": "Torkoal",
+                "score": 0.5833,
+                "n": 84
+              },
+              {
+                "key": "Kingambit",
+                "score": 0.566,
+                "n": 106
+              },
+              {
+                "key": "Sneasler",
+                "score": 0.5466,
+                "n": 161
+              },
+              {
+                "key": "Sinistcha",
+                "score": 0.5397,
+                "n": 252
+              },
+              {
+                "key": "Basculegion",
+                "score": 0.5298,
+                "n": 168
+              },
+              {
+                "key": "Maushold",
+                "score": 0.5211,
+                "n": 71
+              }
+            ]
+          },
+          "1760": {
+            "usage": 0.0009563000000000001,
+            "raw_count": 6269,
+            "viability_ceiling": [
+              694,
+              74,
+              68,
+              57
+            ],
+            "top_items": [
+              {
+                "key": "manectite",
+                "weight": 9.605570373004687
+              }
+            ],
+            "top_moves": [
+              {
+                "key": "protect",
+                "weight": 9.131089097452858
+              },
+              {
+                "key": "voltswitch",
+                "weight": 8.27243112260031
+              },
+              {
+                "key": "snarl",
+                "weight": 5.0148898905527926
+              },
+              {
+                "key": "thunderbolt",
+                "weight": 4.05030519452802
+              },
+              {
+                "key": "thunder",
+                "weight": 3.4544446853727226
+              },
+              {
+                "key": "overheat",
+                "weight": 2.2964468756798353
+              },
+              {
+                "key": "flamethrower",
+                "weight": 1.68848087361074
+              },
+              {
+                "key": "eerieimpulse",
+                "weight": 1.52509953765572
+              }
+            ],
+            "top_abilities": [
+              {
+                "key": "intimidate",
+                "weight": 9.605570373004687
+              }
+            ],
+            "top_spreads": [
+              {
+                "key": "Timid:2/0/0/32/0/32",
+                "weight": 3.314937277505522
+              },
+              {
+                "key": "Timid:30/0/0/4/0/32",
+                "weight": 1.4360913826804125
+              },
+              {
+                "key": "Timid:30/0/3/0/1/32",
+                "weight": 0.7287248628239351
+              },
+              {
+                "key": "Modest:15/0/0/25/0/26",
+                "weight": 0.5101264087410253
+              },
+              {
+                "key": "Modest:2/0/0/32/0/32",
+                "weight": 0.3314806385261002
+              },
+              {
+                "key": "Timid:0/0/0/32/0/32",
+                "weight": 0.2878623900440863
+              },
+              {
+                "key": "Timid:28/0/5/1/0/32",
+                "weight": 0.2802432007580323
+              },
+              {
+                "key": "Timid:19/0/0/15/0/32",
+                "weight": 0.2772088954414274
+              }
+            ],
+            "top_teammates": [
+              {
+                "key": "Pelipper",
+                "weight": 4.399987162170397
+              },
+              {
+                "key": "Archaludon",
+                "weight": 3.7087833250238185
+              },
+              {
+                "key": "Basculegion",
+                "weight": 2.8890938155449843
+              },
+              {
+                "key": "Sinistcha",
+                "weight": 2.0226892727310335
+              },
+              {
+                "key": "Sneasler",
+                "weight": 1.907539597238832
+              },
+              {
+                "key": "Serperior",
+                "weight": 1.6059852123056964
+              },
+              {
+                "key": "Swampert-Mega",
+                "weight": 1.5440588058408022
+              },
+              {
+                "key": "Farigiraf",
+                "weight": 1.4937754533256802
+              }
+            ],
+            "top_counters": []
+          }
+        }
+      }
+    }
+  ],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.0011781,
+        "raw_count": 3216,
+        "viability_ceiling": [
+          390,
+          68,
+          65,
+          56
+        ],
+        "top_items": [
+          {
+            "key": "choicescarf",
+            "weight": 1027.0
+          },
+          {
+            "key": "magnet",
+            "weight": 564.0
+          },
+          {
+            "key": "focussash",
+            "weight": 544.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 512.0
+          },
+          {
+            "key": "shucaberry",
+            "weight": 237.0
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 72.0
+          },
+          {
+            "key": "expertbelt",
+            "weight": 59.0
+          },
+          {
+            "key": "nothing",
+            "weight": 53.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "voltswitch",
+            "weight": 1680.0
+          },
+          {
+            "key": "protect",
+            "weight": 1585.0
+          },
+          {
+            "key": "snarl",
+            "weight": 1446.0
+          },
+          {
+            "key": "thunderbolt",
+            "weight": 1321.0
+          },
+          {
+            "key": "flamethrower",
+            "weight": 1274.0
+          },
+          {
+            "key": "discharge",
+            "weight": 1184.0
+          },
+          {
+            "key": "overheat",
+            "weight": 824.0
+          },
+          {
+            "key": "thunder",
+            "weight": 706.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "lightningrod",
+            "weight": 2864.0
+          },
+          {
+            "key": "minus",
+            "weight": 189.0
+          },
+          {
+            "key": "static",
+            "weight": 163.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 1882.0
+          },
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 200.0
+          },
+          {
+            "key": "Hasty:0/2/0/32/0/32",
+            "weight": 134.0
+          },
+          {
+            "key": "Modest:0/0/0/32/0/32",
+            "weight": 84.0
+          },
+          {
+            "key": "Timid:0/0/0/32/0/32",
+            "weight": 81.0
+          },
+          {
+            "key": "Modest:32/0/0/32/0/2",
+            "weight": 68.0
+          },
+          {
+            "key": "Timid:0/0/2/32/0/32",
+            "weight": 57.0
+          },
+          {
+            "key": "Modest:32/0/0/32/2/0",
+            "weight": 55.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Pelipper",
+            "weight": 620.0
+          },
+          {
+            "key": "Staraptor-Mega",
+            "weight": 568.0
+          },
+          {
+            "key": "Sinistcha",
+            "weight": 516.0
+          },
+          {
+            "key": "Raichu-Mega-X",
+            "weight": 505.0
+          },
+          {
+            "key": "Whimsicott",
+            "weight": 490.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 364.0
+          },
+          {
+            "key": "Grimmsnarl",
+            "weight": 360.0
+          },
+          {
+            "key": "Garchomp",
+            "weight": 356.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Garchomp",
+            "score": 0.6148,
+            "n": 122
+          },
+          {
+            "key": "Swampert-Mega",
+            "score": 0.5147,
+            "n": 68
+          },
+          {
+            "key": "Basculegion",
+            "score": 0.5067,
+            "n": 75
+          },
+          {
+            "key": "Whimsicott",
+            "score": 0.5,
+            "n": 112
+          },
+          {
+            "key": "Sinistcha",
+            "score": 0.4832,
+            "n": 149
+          },
+          {
+            "key": "Farigiraf",
+            "score": 0.4789,
+            "n": 71
+          },
+          {
+            "key": "Staraptor-Mega",
+            "score": 0.4464,
+            "n": 56
+          },
+          {
+            "key": "Sneasler",
+            "score": 0.4366,
+            "n": 71
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.0002331,
+        "raw_count": 3216,
+        "viability_ceiling": [
+          390,
+          68,
+          65,
+          56
+        ],
+        "top_items": [
+          {
+            "key": "choicescarf",
+            "weight": 0.730374434195786
+          },
+          {
+            "key": "focussash",
+            "weight": 0.6684594820208078
+          },
+          {
+            "key": "shucaberry",
+            "weight": 0.4242457921079212
+          },
+          {
+            "key": "magnet",
+            "weight": 0.28154297521350125
+          },
+          {
+            "key": "lifeorb",
+            "weight": 0.1934056777561176
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 0.037558575007165806
+          },
+          {
+            "key": "charcoal",
+            "weight": 0.03557915377112558
+          },
+          {
+            "key": "expertbelt",
+            "weight": 0.02006192162914444
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "voltswitch",
+            "weight": 1.6020910964915331
+          },
+          {
+            "key": "protect",
+            "weight": 1.27847229209126
+          },
+          {
+            "key": "thunderbolt",
+            "weight": 1.2020525666830202
+          },
+          {
+            "key": "snarl",
+            "weight": 1.0412048198907233
+          },
+          {
+            "key": "flamethrower",
+            "weight": 0.7942374449633078
+          },
+          {
+            "key": "discharge",
+            "weight": 0.6357268277221266
+          },
+          {
+            "key": "overheat",
+            "weight": 0.5590863376797397
+          },
+          {
+            "key": "thunder",
+            "weight": 0.4229502777315942
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "lightningrod",
+            "weight": 2.177448208402892
+          },
+          {
+            "key": "minus",
+            "weight": 0.13272188673784918
+          },
+          {
+            "key": "static",
+            "weight": 0.08803937705738046
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Timid:2/0/0/32/0/32",
+            "weight": 0.9147706019685906
+          },
+          {
+            "key": "Hardy:2/0/0/32/0/32",
+            "weight": 0.3690870241012952
+          },
+          {
+            "key": "Modest:2/0/0/32/0/32",
+            "weight": 0.21782492211061416
+          },
+          {
+            "key": "Modest:24/0/5/32/5/0",
+            "weight": 0.21142977840472116
+          },
+          {
+            "key": "Timid:0/0/0/32/0/32",
+            "weight": 0.12936745966217406
+          },
+          {
+            "key": "Modest:19/0/0/32/0/15",
+            "weight": 0.09554789864379248
+          },
+          {
+            "key": "Timid:32/0/0/2/0/32",
+            "weight": 0.09348530345565559
+          },
+          {
+            "key": "Timid:30/0/0/4/0/32",
+            "weight": 0.09124151771980049
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Sinistcha",
+            "weight": 0.9738200267040258
+          },
+          {
+            "key": "Staraptor-Mega",
+            "weight": 0.9264560037254377
+          },
+          {
+            "key": "Metagross-Mega",
+            "weight": 0.6815764719014583
+          },
+          {
+            "key": "Incineroar",
+            "weight": 0.561576752466971
+          },
+          {
+            "key": "Whimsicott",
+            "weight": 0.45638596817871896
+          },
+          {
+            "key": "Swampert-Mega",
+            "weight": 0.4421095250339724
+          },
+          {
+            "key": "Pelipper",
+            "weight": 0.43880709724907896
+          },
+          {
+            "key": "Sneasler",
+            "weight": 0.4318637060696301
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Manectric.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Protect",
+        "pct": 71.6,
+        "rank": 1
+      },
+      {
+        "name": "Volt Switch",
+        "pct": 62.5,
+        "rank": 2
+      },
+      {
+        "name": "Snarl",
+        "pct": 59.5,
+        "rank": 3
+      },
+      {
+        "name": "Thunderbolt",
+        "pct": 44.2,
+        "rank": 4
+      },
+      {
+        "name": "Flamethrower",
+        "pct": 34.7,
+        "rank": 5
+      },
+      {
+        "name": "Overheat",
+        "pct": 33.9,
+        "rank": 6
+      },
+      {
+        "name": "Discharge",
+        "pct": 24.0,
+        "rank": 7
+      },
+      {
+        "name": "Thunder",
+        "pct": 21.9,
+        "rank": 8
+      },
+      {
+        "name": "Rising Voltage",
+        "pct": 8.6,
+        "rank": 9
+      },
+      {
+        "name": "Hyper Voice",
+        "pct": 5.9,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Manectite",
+        "pct": 63.7,
+        "rank": 1
+      },
+      {
+        "name": "Focus Sash",
+        "pct": 10.3,
+        "rank": 2
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 10.1,
+        "rank": 3
+      },
+      {
+        "name": "Magnet",
+        "pct": 4.1,
+        "rank": 4
+      },
+      {
+        "name": "Life Orb",
+        "pct": 2.9,
+        "rank": 5
+      },
+      {
+        "name": "Shuca Berry",
+        "pct": 2.0,
+        "rank": 6
+      },
+      {
+        "name": "Wise Glasses",
+        "pct": 1.4,
+        "rank": 7
+      },
+      {
+        "name": "Expert Belt",
+        "pct": 1.2,
+        "rank": 8
+      },
+      {
+        "name": "Quick Claw",
+        "pct": 0.8,
+        "rank": 9
+      },
+      {
+        "name": "White Herb",
+        "pct": 0.8,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Lightning Rod",
+        "pct": 90.9,
+        "rank": 1
+      },
+      {
+        "name": "Minus",
+        "pct": 5.0,
+        "rank": 2
+      },
+      {
+        "name": "Static",
+        "pct": 4.1,
+        "rank": 3
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Timid",
+        "pct": 19.8,
+        "stat_up": "Speed",
+        "stat_down": "Attack",
+        "rank": 1
+      },
+      {
+        "name": "Modest",
+        "pct": 16.2,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Attack",
+        "rank": 2
+      },
+      {
+        "name": "Mild",
+        "pct": 1.4,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Defense",
+        "rank": 3
+      },
+      {
+        "name": "Naive",
+        "pct": 0.7,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Def",
+        "rank": 4
+      },
+      {
+        "name": "Calm",
+        "pct": 0.4,
+        "stat_up": "Sp. Def",
+        "stat_down": "Attack",
+        "rank": 5
+      },
+      {
+        "name": "Rash",
+        "pct": 0.3,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Sp. Def",
+        "rank": 6
+      },
+      {
+        "name": "Quiet",
+        "pct": 0.3,
+        "stat_up": "Sp. Atk",
+        "stat_down": "Speed",
+        "rank": 7
+      },
+      {
+        "name": "Hasty",
+        "pct": 0.3,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 8
+      },
+      {
+        "name": "Bold",
+        "pct": 0.2,
+        "stat_up": "Defense",
+        "stat_down": "Attack",
+        "rank": 9
+      },
+      {
+        "name": "Jolly",
+        "pct": 0.2,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 50.4,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 2,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 9.0,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 3.9,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 0,
+          "spa": 2,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 2.8,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 0,
+          "def": 0,
+          "spa": 32,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 1.9,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 0,
+          "def": 15,
+          "spa": 1,
+          "spd": 0,
+          "spe": 18
+        },
+        "pct": 1.1,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 5,
+          "atk": 0,
+          "def": 0,
+          "spa": 29,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 1.0,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 9,
+          "atk": 0,
+          "def": 0,
+          "spa": 25,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 0.9,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Pelipper",
+        "rank": 1
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 2
+      },
+      {
+        "name": "Archaludon",
+        "rank": 3
+      },
+      {
+        "name": "Garchomp",
+        "rank": 4
+      },
+      {
+        "name": "Raichu",
+        "rank": 5
+      },
+      {
+        "name": "Swampert",
+        "rank": 6
+      },
+      {
+        "name": "Whimsicott",
+        "rank": 7
+      },
+      {
+        "name": "Incineroar",
+        "rank": 8
+      },
+      {
+        "name": "Sneasler",
+        "rank": 9
+      },
+      {
+        "name": "Milotic",
+        "rank": 10
+      }
+    ]
+  }
+}
