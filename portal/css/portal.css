@@ -1,0 +1,845 @@
+/* portal.css — single stylesheet, light + dark.
+   Theme is chosen by the nav "Theme" toggle (Auto / Dark / Light), stored in
+   localStorage and applied as :root[data-theme] before first paint. "Auto"
+   (no data-theme) follows the OS via prefers-color-scheme. The dark token
+   block is deliberately duplicated for the explicit-dark and auto-dark
+   selectors — plain CSS, no preprocessor. Token values are the project's
+   validated palette; do not hand-tune. */
+
+:root {
+  --surface: #fcfcfb;
+  --page: #f9f9f7;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --muted: #898781;
+  --hairline: #e1e0d9;
+  --axis: #c3c2b7;
+  --series-1: #2a78d6;   /* Smogon ladder */
+  --series-2: #1baf7a;   /* in-game battle data */
+  --good: #0ca30c;
+  --arm-red: #e34948;
+  --arm-blue: #2a78d6;
+  --neutral: #f0efec;
+  /* sequential blue ramp for stat bars (light) */
+  --ramp-0: #86b6ef;
+  --ramp-1: #3987e5;
+  --ramp-2: #1c5cab;
+  --ramp-3: #0d366b;
+}
+
+/* Explicit Dark (nav toggle → Dark). */
+:root[data-theme="dark"] {
+  --surface: #1a1a19;
+  --page: #0d0d0d;
+  --ink: #ffffff;
+  --ink-2: #c3c2b7;
+  --muted: #898781;
+  --hairline: #2c2c2a;
+  --axis: #383835;
+  --series-1: #3987e5;
+  --series-2: #199e70;
+  --good: #0ca30c;
+  --arm-red: #e34948;
+  --arm-blue: #3987e5;
+  --neutral: #383835;
+  --ramp-0: #86b6ef;
+  --ramp-1: #4f9ae8;
+  --ramp-2: #2f74c9;
+  --ramp-3: #184f95;
+}
+
+/* Auto (no explicit choice) follows the OS; an explicit Light opts out. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --surface: #1a1a19;
+    --page: #0d0d0d;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --hairline: #2c2c2a;
+    --axis: #383835;
+    --series-1: #3987e5;
+    --series-2: #199e70;
+    --good: #0ca30c;
+    --arm-red: #e34948;
+    --arm-blue: #3987e5;
+    --neutral: #383835;
+    --ramp-0: #86b6ef;
+    --ramp-1: #4f9ae8;
+    --ramp-2: #2f74c9;
+    --ramp-3: #184f95;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.tnum { font-variant-numeric: tabular-nums; }
+
+a { color: var(--series-1); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* --- Top bar ------------------------------------------------------------ */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 0.55rem 1.1rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--hairline);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  flex-wrap: wrap;
+}
+.brand { display: flex; align-items: baseline; gap: 0.4rem; color: var(--ink); }
+.brand:hover { text-decoration: none; }
+.brand-main { font-weight: 700; letter-spacing: -0.01em; }
+.brand-sub { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+/* Two stacked, right-aligned rows; each row wraps on narrow screens. */
+.topbar nav.nav-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-left: auto;
+  align-items: flex-end;
+}
+.nav-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.topbar nav a { color: var(--ink-2); font-weight: 500; padding: 0.15rem 0; border-bottom: 2px solid transparent; }
+.topbar nav a:hover { text-decoration: none; color: var(--ink); }
+.topbar nav a.active { color: var(--ink); border-bottom-color: var(--series-1); }
+.theme-toggle {
+  font: inherit;
+  font-weight: 500;
+  color: var(--ink-2);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 0.2rem 0.55rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--axis); }
+.theme-toggle:focus-visible { outline: 2px solid var(--series-1); outline-offset: 1px; }
+
+main { max-width: 1100px; margin: 0 auto; padding: 1.1rem; }
+
+.loading { color: var(--muted); padding: 2rem 0; }
+
+.page-head h1 { margin: 0 0 0.2rem; font-size: 1.4rem; }
+.stat-picker-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; margin: 0.3rem 0 0.2rem; }
+.picker-label { color: var(--ink-2); font-size: 0.85rem; }
+.muted { color: var(--muted); }
+.small { font-size: 0.85em; }
+
+/* --- Controls ----------------------------------------------------------- */
+
+.controls {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.ctrl {
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 0.32rem 0.5rem;
+}
+.ctrl:focus { outline: 2px solid var(--series-1); outline-offset: 0; }
+.ctrl-label { color: var(--ink-2); display: inline-flex; align-items: center; gap: 0.4rem; }
+input[type="search"].ctrl { min-width: 190px; }
+.overview-meta { color: var(--muted); margin: 0.3rem 0; font-size: 0.85rem; }
+.result-count { color: var(--ink-2); margin: 0.2rem 0 0.5rem; font-size: 0.85rem; }
+
+/* Overview active-filter chips (type + ability + move compose with AND). Each
+   chip removes just its own filter on click. */
+.filter-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.2rem 0 0; }
+.filter-chips-label { color: var(--muted); }
+.filter-chip {
+  font: inherit;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  color: var(--ink-2);
+  background: var(--neutral);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.82rem;
+}
+.filter-chip:hover { border-color: var(--axis); color: var(--ink); }
+.filter-chip:focus-visible { outline: 2px solid var(--series-1); outline-offset: 1px; }
+.filter-chip-key { color: var(--muted); }
+.filter-chip-x { font-weight: 700; }
+.empty-filter { padding: 1rem 0; }
+
+/* --- Segmented control -------------------------------------------------- */
+
+.segmented { display: inline-flex; border: 1px solid var(--hairline); border-radius: 6px; overflow: hidden; }
+.seg {
+  font: inherit;
+  color: var(--ink-2);
+  background: var(--surface);
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  border-right: 1px solid var(--hairline);
+}
+.seg:last-child { border-right: none; }
+.seg:hover { background: var(--neutral); }
+.seg.active { background: var(--series-1); color: #fff; }
+
+/* --- Tables ------------------------------------------------------------- */
+
+.table-host { overflow-x: auto; }
+.data-table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+.data-table th, .data-table td {
+  text-align: left;
+  padding: 0.32rem 0.55rem;
+  border-bottom: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+.data-table th {
+  color: var(--ink-2);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+}
+.data-table th.tnum, .data-table td.tnum { text-align: right; font-variant-numeric: tabular-nums; }
+.data-table th.sorted-asc::after { content: " ▲"; color: var(--series-1); }
+.data-table th.sorted-desc::after { content: " ▼"; color: var(--series-1); }
+.data-table tbody tr.clickable { cursor: pointer; }
+.data-table tbody tr.clickable:hover { background: var(--neutral); }
+
+.mon-cell { display: inline-flex; align-items: center; gap: 0.4rem; }
+.mon-name { font-weight: 600; }
+
+.delta { font-size: 0.78rem; padding: 0.05rem 0.35rem; border-radius: 999px; white-space: nowrap; }
+.delta.top { color: #fff; background: var(--series-1); }
+.delta.casual { color: var(--ink); background: var(--neutral); border: 1px solid var(--axis); }
+.owned { font-weight: 700; }
+.owned.yes { color: var(--good); }
+.owned.no { color: var(--muted); }
+
+/* Ownership toggle (server-persisted) */
+.own-wrap { display: inline-flex; }
+.own-toggle {
+  font: inherit;
+  cursor: pointer;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 0.05rem 0.4rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.own-toggle:hover { border-color: var(--axis); color: var(--ink-2); }
+.own-toggle:focus-visible { outline: 2px solid var(--series-1); outline-offset: 1px; }
+.own-toggle.on { color: var(--good); border-color: var(--good); }
+.own-toggle.labeled { padding: 0.25rem 0.7rem; font-weight: 600; }
+.own-toggle[disabled] { opacity: 0.6; cursor: default; }
+.owned.labeled { padding: 0.25rem 0.4rem; display: inline-block; }
+.own-row { margin: 0.3rem 0 0.1rem; }
+
+/* Non-blocking toast notices */
+#toast-host {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+  pointer-events: none;
+}
+.toast {
+  background: var(--ink);
+  color: var(--page);
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  max-width: 90vw;
+}
+.toast.hide { opacity: 0; }
+
+/* --- Type badges + chips ------------------------------------------------ */
+
+.type-badges { display: inline-flex; gap: 0.25rem; flex-wrap: wrap; }
+/* Default: the official type icon (an <img>). The badge span just aligns the
+   icon (+ optional multiplier text); it carries no pill styling itself. */
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  vertical-align: middle;
+  line-height: 1;
+}
+/* Square official icon; a hairline ring keeps light-backed types (Ice, Steel,
+   Fairy) crisp on a light page and dark-backed ones crisp on a dark page. */
+.type-icon {
+  height: 16px;
+  width: auto;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+:root[data-theme="dark"] .type-icon { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .type-icon { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15); }
+}
+.type-extra { font-size: 0.72rem; font-weight: 700; color: var(--ink-2); }
+/* Fallback pill (icon failed / offline): the classic coloured text badge. */
+.type-badge-text {
+  display: inline-block;
+  padding: 0.06rem 0.42rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.chip { position: relative; }
+.chip.arm-red { box-shadow: 0 0 0 2px var(--arm-red); }
+.chip.arm-blue { box-shadow: 0 0 0 2px var(--arm-blue); }
+.chip.arm-immune { box-shadow: 0 0 0 2px var(--ink-2); opacity: 0.92; }
+
+/* --- Sprites ------------------------------------------------------------ */
+
+.sprite { display: inline-flex; align-items: center; justify-content: center; vertical-align: middle; }
+.sprite img { object-fit: contain; image-rendering: auto; }
+.monogram {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+/* --- Cards + sections --------------------------------------------------- */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  margin: 0.8rem 0;
+}
+.section-head { margin-bottom: 0.6rem; }
+.section-head h2 { margin: 0; font-size: 1.05rem; }
+.section-sub { margin: 0.15rem 0 0; color: var(--muted); font-size: 0.82rem; }
+.sub-head { margin: 0.8rem 0 0.3rem; font-size: 0.95rem; }
+
+.notice { background: var(--surface); border: 1px solid var(--hairline); border-radius: 10px; padding: 1.2rem; }
+.notice.error { border-color: var(--arm-red); }
+
+/* --- Detail header ------------------------------------------------------ */
+
+.back-link { display: inline-block; margin-bottom: 0.6rem; color: var(--ink-2); }
+.detail-header { display: flex; gap: 1.1rem; align-items: center; flex-wrap: wrap; }
+.detail-heading h1 { margin: 0; font-size: 1.5rem; }
+.ability-line { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0.35rem 0; }
+.ability { color: var(--ink-2); }
+.ability.hidden-ability { font-style: italic; }
+.ability { border-bottom: 1px dotted var(--axis); cursor: help; }
+.meta-line { display: flex; gap: 0.9rem; color: var(--muted); font-size: 0.85rem; margin-bottom: 0.4rem; }
+
+/* --- Stat bars ---------------------------------------------------------- */
+
+.stat-bars { display: flex; flex-direction: column; gap: 0.28rem; max-width: 560px; }
+.stat-row { display: grid; grid-template-columns: 2.4rem 1fr 5.4rem; align-items: center; gap: 0.5rem; }
+.stat-label { color: var(--ink-2); font-size: 0.82rem; }
+.stat-track { height: 8px; background: var(--neutral); border-radius: 4px; overflow: hidden; }
+.stat-fill { display: block; height: 100%; border-radius: 0 4px 4px 0; }
+.stat-num { text-align: right; color: var(--ink); white-space: nowrap; }
+.stat-total { border-top: 1px solid var(--hairline); margin-top: 0.2rem; padding-top: 0.28rem; }
+.stat-total .stat-label, .stat-total .stat-num { font-weight: 700; }
+
+/* --- Stat Alignment (nature) panel, detail page ------------------------- */
+
+.stats-and-align { display: flex; gap: 1.6rem; flex-wrap: wrap; align-items: flex-start; }
+.align-panel { flex: 1 1 15rem; min-width: 14rem; max-width: 22rem; }
+.align-panel .sub-head { margin-top: 0; }
+.nature-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.4rem; }
+.nature-chip {
+  font: inherit; cursor: pointer; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--hairline);
+  border-radius: 999px; padding: 0.15rem 0.6rem;
+}
+.nature-chip:hover { border-color: var(--axis); color: var(--ink); }
+.nature-chip.active { color: #fff; background: var(--series-2); border-color: var(--series-2); }
+.nature-chip-pct { opacity: 0.85; font-variant-numeric: tabular-nums; }
+.align-drop { display: flex; align-items: center; gap: 0.35rem; margin-bottom: 0.5rem; }
+.align-drop .ctrl { padding: 0.2rem 0.4rem; }
+.align-values { display: flex; flex-direction: column; gap: 0.18rem; margin-bottom: 0.4rem; }
+.align-row { display: grid; grid-template-columns: 2.4rem 3rem 1rem; align-items: baseline; gap: 0.4rem; }
+.align-label { color: var(--ink-2); font-size: 0.82rem; }
+.align-val { text-align: right; font-weight: 600; }
+
+/* --- Matchups ----------------------------------------------------------- */
+
+.matchups { display: flex; flex-direction: column; gap: 0.5rem; }
+.matchup-group { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.matchup-label { min-width: 3rem; font-weight: 700; color: var(--ink-2); }
+.chip-row { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+
+/* --- Usage headline ----------------------------------------------------- */
+
+.headline { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.headline-cell { display: flex; flex-direction: column; gap: 0.1rem; }
+.headline-cell.muted { color: var(--muted); }
+.headline-label { color: var(--ink-2); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.headline-usage { font-size: 1.5rem; font-weight: 700; }
+.headline-gxe { color: var(--ink-2); cursor: help; }
+.headline-count { color: var(--muted); font-size: 0.82rem; }
+
+/* --- The comparison ----------------------------------------------------- */
+
+.legend { display: flex; gap: 1rem; margin-bottom: 0.6rem; }
+.legend-item { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--ink-2); font-size: 0.82rem; }
+.swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.swatch.series-1 { background: var(--series-1); }
+.swatch.series-2 { background: var(--series-2); }
+.series-1-text { color: var(--series-1); }
+.series-2-text { color: var(--series-2); }
+
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.compare-head { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; margin-bottom: 0.5rem; }
+.compare-head h3 { margin: 0; font-size: 1rem; }
+.signal-col.empty, .signal-col .empty { color: var(--muted); }
+.sub-list { margin-bottom: 0.7rem; }
+.sub-list h4 { margin: 0 0 0.25rem; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2); }
+.sub-note { text-transform: none; letter-spacing: 0; color: var(--muted); font-weight: 400; }
+.meter-list { display: flex; flex-direction: column; gap: 0.2rem; }
+.weights-note { color: var(--muted); font-size: 0.8rem; margin: 0 0 0.4rem; }
+
+.meter-row {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 1fr) 5.5rem auto;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.05rem 0;
+}
+.meter-name { min-width: 0; overflow-wrap: anywhere; }
+.meter-track { height: 7px; background: var(--neutral); border-radius: 4px; overflow: hidden; }
+.meter-fill { display: block; height: 100%; border-radius: 0 4px 4px 0; }
+.meter-fill.series-1 { background: var(--series-1); }
+.meter-fill.series-2 { background: var(--series-2); }
+.meter-val { text-align: right; color: var(--ink-2); font-size: 0.85rem; min-width: 3.2rem; }
+
+.spread-name { display: inline-flex; align-items: baseline; gap: 0.25rem; flex-wrap: wrap; }
+.spread-nature { font-weight: 600; }
+.spread-dot { color: var(--muted); }
+/* Stats-page "Common spread" cell — full spread, sorted stat's slot emphasized
+   (bold + underline so it reads without relying on colour, in either theme). */
+.spread-cell { white-space: nowrap; }
+.spread-cell .spread-nature { font-weight: 600; }
+.sorted-slot { font-weight: 800; text-decoration: underline; text-underline-offset: 2px; }
+
+/* Stats page: all base stats as columns; the sorted column is highlighted
+   (bold + a faint theme-aware tint, plus the header's ▼/▲ marker — not colour-
+   only). Tight padding keeps 7 stat columns + usage + spread within ~1100px. */
+.stats-table th, .stats-table td { padding-left: 0.4rem; padding-right: 0.4rem; }
+.stats-table th.sorted-asc, .stats-table th.sorted-desc { font-weight: 800; color: var(--ink); background: var(--neutral); }
+.stats-table td.sorted-col { font-weight: 800; background: var(--neutral); }
+.spread-vp { color: var(--muted); font-size: 0.78rem; margin-left: 0.35rem; }
+.nat-up { color: var(--good); font-weight: 700; font-size: 0.78rem; }
+.nat-down { color: var(--muted); font-weight: 700; font-size: 0.78rem; }
+.tm-link { white-space: nowrap; }
+
+.learnset-controls { margin-bottom: 0.5rem; }
+
+/* --- About -------------------------------------------------------------- */
+
+.kv { margin: 0; padding-left: 1.1rem; }
+.kv li { margin: 0.15rem 0; }
+.unmatched { margin: 0.3rem 0 0; padding-left: 1.1rem; }
+.code {
+  background: var(--neutral);
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  overflow-x: auto;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+  font-size: 0.82rem;
+  color: var(--ink);
+}
+
+/* --- Tooltip ------------------------------------------------------------ */
+
+.tooltip {
+  position: absolute;
+  z-index: 50;
+  max-width: 260px;
+  padding: 0.4rem 0.55rem;
+  background: var(--ink);
+  color: var(--page);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  pointer-events: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  white-space: pre-line;  /* multi-line tooltips (e.g. the before/after spread) */
+}
+
+/* --- Counters & countered by (detail) ----------------------------------- */
+
+.threats-block { margin-bottom: 0.7rem; }
+
+/* --- Priority badge (stats + speed) ------------------------------------- */
+
+.prio-badge { cursor: help; margin-left: 0.15rem; font-size: 0.9rem; }
+
+/* --- Hidden-ability marker (Abilities page holders) --------------------- */
+
+.ha-badge {
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--series-2);
+  background: var(--neutral);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 0.02rem 0.28rem;
+  margin-left: 0.15rem;
+  cursor: help;
+}
+
+/* --- Speed tiers (More ▾) ----------------------------------------------- */
+
+/* Same-Speed rows share every derived column, so a heavier top border where
+   the Speed value changes groups the ties visually (matters in Doubles). */
+.speed-table tbody tr.tier-sep td { border-top: 2px solid var(--axis); }
+.speed-table .mon-name.tm-link { font-weight: 600; }
+
+/* --- Moves page --------------------------------------------------------- */
+
+.moves-layout { display: grid; grid-template-columns: minmax(220px, 20rem) 1fr; gap: 1.2rem; align-items: start; }
+.move-results { display: flex; flex-direction: column; gap: 0.2rem; max-height: 70vh; overflow-y: auto; }
+.move-result {
+  display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+  font: inherit; text-align: left; cursor: pointer;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--hairline); border-radius: 6px; padding: 0.3rem 0.5rem;
+}
+.move-result:hover { border-color: var(--axis); }
+.move-result.active { border-color: var(--series-1); background: var(--neutral); }
+.move-result-name { font-weight: 600; }
+.move-info h2 { margin: 0 0 0.3rem; }
+.move-meta { display: flex; align-items: center; gap: 0.7rem; color: var(--ink-2); flex-wrap: wrap; }
+.move-cat { text-transform: capitalize; }
+.move-desc { margin: 0.35rem 0 0; font-size: 0.9rem; line-height: 1.35; }
+.move-learn-head { display: flex; align-items: center; justify-content: space-between; margin: 0.7rem 0 0.3rem; }
+.chip-toggle {
+  font: inherit; cursor: pointer; color: var(--ink-2);
+  background: var(--surface); border: 1px solid var(--hairline);
+  border-radius: 999px; padding: 0.2rem 0.7rem; font-weight: 500;
+}
+.chip-toggle:hover { border-color: var(--axis); color: var(--ink); }
+.chip-toggle.on { color: #fff; background: var(--good); border-color: var(--good); }
+
+/* --- Trends page -------------------------------------------------------- */
+
+.trend-types { display: flex; flex-direction: column; gap: 0.32rem; }
+.trend-type-row { display: grid; grid-template-columns: 5.5rem 1fr 3.4rem; align-items: center; gap: 0.5rem; }
+.trend-type-row .meter-track { height: 10px; }
+.trend-type-row .meter-val { text-align: right; color: var(--ink-2); }
+
+.champ-move-meta { display: inline-flex; align-items: center; gap: 0.3rem; margin-left: 0.5rem; }
+
+/* --- About: page directory ------------------------------------------------ */
+
+.page-directory li { margin: 0.22rem 0; }
+
+/* --- Data-freshness captions -------------------------------------------- */
+
+.as-of { color: var(--muted); font-size: 0.75rem; margin: 0.1rem 0 0.2rem; }
+.freshness-row { display: flex; gap: 1.2rem; flex-wrap: wrap; margin: 0.1rem 0 0.4rem; }
+.freshness-row .as-of { margin: 0; }
+
+/* --- Move-effect chips (Moves page) ------------------------------------- */
+
+.move-chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.45rem 0 0; }
+.move-chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--ink-2);
+  background: var(--neutral);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  white-space: nowrap;
+}
+
+/* --- New in Champions (More ▾) ------------------------------------------ */
+
+.champ-list { display: flex; flex-direction: column; gap: 0.35rem; }
+.champ-row { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.champ-name { font-weight: 600; min-width: 8rem; }
+.champ-desc { font-size: 0.85rem; }
+
+/* --- Ranks & VP (More ▾) ------------------------------------------------ */
+
+.rank-ladder {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: rank;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.rank-row {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.28rem 0.4rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.rank-row:first-child { background: var(--neutral); border-radius: 6px; }
+.rank-row:first-child .rank-name { font-weight: 700; }
+.rank-num { text-align: right; color: var(--muted); font-size: 0.85rem; }
+.rank-name { color: var(--ink); }
+
+.title-list { margin: 0; padding-left: 1.1rem; }
+.title-list li { margin: 0.15rem 0; }
+
+.achievement-list { display: flex; flex-direction: column; gap: 0.3rem; }
+.achievement-row { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.achievement-name { font-weight: 600; min-width: 11rem; }
+.achievement-desc { font-size: 0.85rem; }
+
+.season-list { display: flex; flex-direction: column; gap: 0.25rem; }
+.season-row { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.season-id { font-weight: 700; min-width: 3rem; }
+.season-reg { color: var(--ink-2); font-weight: 600; font-size: 0.85rem; }
+.season-range { font-size: 0.85rem; }
+
+.econ-table td { white-space: normal; }
+.econ-label { font-weight: 600; }
+
+.conf-chip {
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+  white-space: nowrap;
+  border: 1px solid var(--hairline);
+}
+.conf-guide { color: var(--ink-2); background: var(--neutral); }
+.conf-uncertain { color: #fff; background: var(--arm-red); border-color: var(--arm-red); }
+.conf-other { color: var(--ink-2); background: var(--neutral); }
+.legality-conf { margin-top: 0.5rem; }
+.sources-note { margin-top: 0.8rem; }
+
+/* --- Pairing cores (More ▾) --------------------------------------------- */
+
+.pairs-note { margin: 0.2rem 0 0.5rem; }
+.pairs-list { display: flex; flex-direction: column; gap: 0.1rem; }
+.pair-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+  padding: 0.32rem 0.35rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.pair-rank { width: 1.8rem; flex: none; text-align: right; color: var(--muted); font-size: 0.85rem; }
+.pair-mons { flex: 1 1 13rem; min-width: 0; display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap; }
+.pair-mon { display: inline-flex; align-items: center; gap: 0.3rem; }
+.pair-mon-name { font-weight: 600; }
+.pair-plus { color: var(--muted); font-weight: 700; }
+.pair-per100 { flex: none; margin-left: auto; color: var(--ink-2); font-size: 0.9rem; cursor: help; white-space: nowrap; }
+.pair-badges { flex: none; display: inline-flex; gap: 0.3rem; flex-wrap: wrap; }
+.pair-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+  white-space: nowrap;
+  cursor: help;
+  border: 1px solid var(--hairline);
+  color: var(--ink-2);
+  background: var(--neutral);
+}
+.pair-chip.mutual { color: #fff; background: var(--series-1); border-color: var(--series-1); }
+.pair-chip.ingame { color: var(--series-2); border-color: var(--series-2); background: transparent; }
+
+/* --- Signal divergence (More ▾) ----------------------------------------- */
+
+.div-list { display: flex; flex-direction: column; gap: 0.05rem; }
+.div-row {
+  display: grid;
+  grid-template-columns: 32px 1fr 8rem;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.35rem 0.2rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.div-body { display: flex; flex-direction: column; min-width: 0; }
+.div-name { font-weight: 600; }
+.div-fact { font-size: 0.82rem; }
+.div-score { display: flex; align-items: center; gap: 0.45rem; }
+.div-meter { flex: 1; height: 8px; }
+.div-score-num { min-width: 2.4rem; text-align: right; font-weight: 700; cursor: help; }
+
+/* --- Roster coverage (More ▾) ------------------------------------------- */
+
+.cov-callout { margin: 0.15rem 0 0.7rem; font-size: 0.88rem; }
+.cov-callout.warn { color: var(--ink); }
+.cov-callout.good { color: var(--good); }
+
+.cov-def-list { display: flex; flex-direction: column; gap: 0.05rem; }
+.cov-def-block { border-bottom: 1px solid var(--hairline); }
+.cov-def-row {
+  display: grid;
+  grid-template-columns: 7rem 5rem 5rem 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.28rem 0.35rem;
+  width: 100%;
+  background: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.cov-def-row:hover { background: var(--surface); }
+.cov-def-row.pileup { border-left: 3px solid var(--arm-red); padding-left: 0.5rem; }
+.cov-def-type { display: inline-flex; align-items: center; gap: 0.35rem; }
+.cov-type-name { font-weight: 600; font-size: 0.85rem; }
+.cov-weak { color: var(--arm-red); font-weight: 600; }
+.cov-resist { color: var(--series-1); font-weight: 600; }
+.cov-pileup-badge { color: var(--arm-red); font-weight: 700; font-size: 0.78rem; }
+.cov-chevron { color: var(--muted); justify-self: end; font-size: 0.85rem; }
+.cov-def-detail { padding: 0.15rem 0.35rem 0.55rem 1rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.cov-def-detail[hidden] { display: none; }
+.cov-detail-line { display: flex; align-items: baseline; gap: 0.45rem; flex-wrap: wrap; }
+.cov-detail-label { flex: 0 0 auto; min-width: 6.5rem; }
+.cov-chip-wrap { display: inline-flex; flex-wrap: wrap; gap: 0.3rem; }
+.cov-mon-chip {
+  display: inline-flex;
+  align-items: baseline;
+  padding: 0.08rem 0.45rem;
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.82rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+.cov-mon-chip:hover { border-color: var(--series-1); }
+.cov-mon-chip .cov-chip-mult { font-weight: 700; }
+.cov-mon-chip.weak .cov-chip-mult { color: var(--arm-red); }
+.cov-mon-chip.weak.x4 { border-color: var(--arm-red); }
+.cov-mon-chip.resist .cov-chip-mult { color: var(--series-1); }
+.cov-mon-chip.resist.x0 { border-color: var(--series-1); }
+
+/* --- Tournaments (More ▾) ----------------------------------------------- */
+
+.tt-section-h { margin: 1.3rem 0 0.4rem; font-size: 1.1rem; }
+.tt-fetched { margin: 0.2rem 0 0.6rem; }
+.tt-source { margin: 0.1rem 0 0.6rem; }
+.tt-source-link { font-size: 0.8rem; }
+
+.tt-event { margin-bottom: 0.9rem; }
+.tt-standings { display: flex; flex-direction: column; gap: 0.05rem; }
+.tt-standing-row {
+  display: grid;
+  grid-template-columns: 2rem 10rem 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.2rem;
+  border-bottom: 1px solid var(--hairline);
+}
+.tt-place { text-align: right; color: var(--muted); font-size: 0.85rem; }
+.tt-player-name { font-weight: 600; }
+.tt-team { display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap; }
+.tt-mon-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.05rem 0.3rem;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  background: var(--neutral);
+}
+a.tt-mon-chip:hover { border-color: var(--series-1); }
+.tt-mon-name { font-size: 0.82rem; }
+.tt-more { margin-top: 0.5rem; }
+
+.tt-team { margin-bottom: 0.7rem; }
+.tt-team-head { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.tt-team-title { margin: 0; font-size: 1rem; }
+.tt-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.05rem 0.45rem;
+  cursor: help;
+  border: 1px solid var(--hairline);
+}
+.tt-badge.rich { color: #fff; background: var(--series-2); border-color: var(--series-2); }
+.tt-badge.names { color: var(--muted); background: var(--neutral); }
+.tt-rich-team {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.4rem 0.9rem;
+  margin-top: 0.4rem;
+}
+.tt-rich-mon { display: flex; align-items: flex-start; gap: 0.45rem; }
+.tt-rich-body { min-width: 0; }
+.tt-rich-head { display: flex; align-items: baseline; gap: 0.35rem; flex-wrap: wrap; }
+.tt-item { color: var(--ink-2); font-size: 0.85rem; }
+.tt-ability { font-style: italic; }
+.tt-moves { line-height: 1.3; }
+.tt-move-sep { color: var(--muted); }
+.tt-names-team { display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap; margin-top: 0.4rem; }
+
+/* --- Responsive --------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  .compare { grid-template-columns: 1fr; }
+  .headline-usage { font-size: 1.25rem; }
+  .moves-layout { grid-template-columns: 1fr; }
+  .move-results { max-height: 40vh; }
+  .div-row { grid-template-columns: 28px 1fr 5.5rem; }
+  .cov-def-row { grid-template-columns: 6rem 4.2rem 4.2rem 1fr auto; gap: 0.4rem; }
+  .tt-standing-row { grid-template-columns: 1.6rem 1fr; }
+  .tt-standing-row .tt-team { grid-column: 1 / -1; }
+  .tt-rich-team { grid-template-columns: 1fr; }
+}

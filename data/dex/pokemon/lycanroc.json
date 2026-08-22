@@ -1,0 +1,1462 @@
+{
+  "showdown_name": "Lycanroc",
+  "form_text": "Midday Form",
+  "personal_id": "0745000",
+  "national_dex": 745,
+  "form_index": 0,
+  "sex": 0,
+  "reg_no": 1,
+  "merge_fo": 0,
+  "ff": "11",
+  "types": [
+    "Rock"
+  ],
+  "stats": {
+    "hp": 75,
+    "atk": 115,
+    "def": 65,
+    "spa": 55,
+    "spd": 65,
+    "spe": 112
+  },
+  "abilities": [
+    {
+      "slot": 0,
+      "id": 51,
+      "name": "Keen Eye",
+      "description": "The Pokémon ignores changes to targets’ evasiveness and its\naccuracy cannot be lowered."
+    },
+    {
+      "slot": 1,
+      "id": 146,
+      "name": "Sand Rush",
+      "description": "Doubles the Pokémon’s Speed stat in a sandstorm."
+    }
+  ],
+  "hidden_ability": {
+    "id": 80,
+    "name": "Steadfast",
+    "description": "When the Pokémon flinches, its Speed stat is boosted by\n1 stage."
+  },
+  "weight_hg": 250,
+  "is_valid": true,
+  "learnset": [
+    {
+      "id": 14,
+      "name": "Swords Dance",
+      "showdown_id": "swordsdance",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 34,
+      "name": "Body Slam",
+      "showdown_id": "bodyslam",
+      "type": "Normal",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 36,
+      "name": "Take Down",
+      "showdown_id": "takedown",
+      "type": "Normal",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 85,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 37,
+      "name": "Thrash",
+      "showdown_id": "thrash",
+      "type": "Normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "field"
+    },
+    {
+      "id": 38,
+      "name": "Double-Edge",
+      "showdown_id": "doubleedge",
+      "type": "Normal",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 44,
+      "name": "Bite",
+      "showdown_id": "bite",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 46,
+      "name": "Roar",
+      "showdown_id": "roar",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": -6,
+      "target": "selected"
+    },
+    {
+      "id": 91,
+      "name": "Dig",
+      "showdown_id": "dig",
+      "type": "Ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 97,
+      "name": "Agility",
+      "showdown_id": "agility",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 98,
+      "name": "Quick Attack",
+      "showdown_id": "quickattack",
+      "type": "Normal",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 104,
+      "name": "Double Team",
+      "showdown_id": "doubleteam",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 156,
+      "name": "Rest",
+      "showdown_id": "rest",
+      "type": "Psychic",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 157,
+      "name": "Rock Slide",
+      "showdown_id": "rockslide",
+      "type": "Rock",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 164,
+      "name": "Substitute",
+      "showdown_id": "substitute",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 173,
+      "name": "Snore",
+      "showdown_id": "snore",
+      "type": "Normal",
+      "category": "special",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 182,
+      "name": "Protect",
+      "showdown_id": "protect",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 184,
+      "name": "Scary Face",
+      "showdown_id": "scaryface",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 189,
+      "name": "Mud-Slap",
+      "showdown_id": "mudslap",
+      "type": "Ground",
+      "category": "special",
+      "power": 20,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 201,
+      "name": "Sandstorm",
+      "showdown_id": "sandstorm",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 203,
+      "name": "Endure",
+      "showdown_id": "endure",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 4,
+      "target": "user-side"
+    },
+    {
+      "id": 204,
+      "name": "Charm",
+      "showdown_id": "charm",
+      "type": "Fairy",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 214,
+      "name": "Sleep Talk",
+      "showdown_id": "sleeptalk",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 12,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 231,
+      "name": "Iron Tail",
+      "showdown_id": "irontail",
+      "type": "Steel",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 75,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 241,
+      "name": "Sunny Day",
+      "showdown_id": "sunnyday",
+      "type": "Fire",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 8,
+      "priority": 0,
+      "target": "any"
+    },
+    {
+      "id": 242,
+      "name": "Crunch",
+      "showdown_id": "crunch",
+      "type": "Dark",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 263,
+      "name": "Facade",
+      "showdown_id": "facade",
+      "type": "Normal",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 269,
+      "name": "Taunt",
+      "showdown_id": "taunt",
+      "type": "Dark",
+      "category": "status",
+      "power": 0,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 270,
+      "name": "Helping Hand",
+      "showdown_id": "helpinghand",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 5,
+      "target": "ally"
+    },
+    {
+      "id": 280,
+      "name": "Brick Break",
+      "showdown_id": "brickbreak",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 283,
+      "name": "Endeavor",
+      "showdown_id": "endeavor",
+      "type": "Normal",
+      "category": "physical",
+      "power": 1,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 304,
+      "name": "Hyper Voice",
+      "showdown_id": "hypervoice",
+      "type": "Normal",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 317,
+      "name": "Rock Tomb",
+      "showdown_id": "rocktomb",
+      "type": "Rock",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 334,
+      "name": "Iron Defense",
+      "showdown_id": "irondefense",
+      "type": "Steel",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 336,
+      "name": "Howl",
+      "showdown_id": "howl",
+      "type": "Normal",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "all"
+    },
+    {
+      "id": 339,
+      "name": "Bulk Up",
+      "showdown_id": "bulkup",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "user-side"
+    },
+    {
+      "id": 350,
+      "name": "Rock Blast",
+      "showdown_id": "rockblast",
+      "type": "Rock",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 370,
+      "name": "Close Combat",
+      "showdown_id": "closecombat",
+      "type": "Fighting",
+      "category": "physical",
+      "power": 120,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 372,
+      "name": "Assurance",
+      "showdown_id": "assurance",
+      "type": "Dark",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 387,
+      "name": "Last Resort",
+      "showdown_id": "lastresort",
+      "type": "Normal",
+      "category": "physical",
+      "power": 140,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 389,
+      "name": "Sucker Punch",
+      "showdown_id": "suckerpunch",
+      "type": "Dark",
+      "category": "physical",
+      "power": 70,
+      "accuracy": 100,
+      "pp": 8,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 414,
+      "name": "Earth Power",
+      "showdown_id": "earthpower",
+      "type": "Ground",
+      "category": "special",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 416,
+      "name": "Giga Impact",
+      "showdown_id": "gigaimpact",
+      "type": "Normal",
+      "category": "physical",
+      "power": 150,
+      "accuracy": 90,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 422,
+      "name": "Thunder Fang",
+      "showdown_id": "thunderfang",
+      "type": "Electric",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 424,
+      "name": "Fire Fang",
+      "showdown_id": "firefang",
+      "type": "Fire",
+      "category": "physical",
+      "power": 65,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 428,
+      "name": "Zen Headbutt",
+      "showdown_id": "zenheadbutt",
+      "type": "Psychic",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 90,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 442,
+      "name": "Iron Head",
+      "showdown_id": "ironhead",
+      "type": "Steel",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 444,
+      "name": "Stone Edge",
+      "showdown_id": "stoneedge",
+      "type": "Rock",
+      "category": "physical",
+      "power": 100,
+      "accuracy": 80,
+      "pp": 8,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 446,
+      "name": "Stealth Rock",
+      "showdown_id": "stealthrock",
+      "type": "Rock",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 20,
+      "priority": 0,
+      "target": "raw(11)"
+    },
+    {
+      "id": 496,
+      "name": "Round",
+      "showdown_id": "round",
+      "type": "Normal",
+      "category": "special",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 16,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 501,
+      "name": "Quick Guard",
+      "showdown_id": "quickguard",
+      "type": "Fighting",
+      "category": "status",
+      "power": 0,
+      "accuracy": 101,
+      "pp": 16,
+      "priority": 3,
+      "target": "raw(12)"
+    },
+    {
+      "id": 523,
+      "name": "Bulldoze",
+      "showdown_id": "bulldoze",
+      "type": "Ground",
+      "category": "physical",
+      "power": 60,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "all-other-pokemon"
+    },
+    {
+      "id": 529,
+      "name": "Drill Run",
+      "showdown_id": "drillrun",
+      "type": "Ground",
+      "category": "physical",
+      "power": 80,
+      "accuracy": 95,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 541,
+      "name": "Tail Slap",
+      "showdown_id": "tailslap",
+      "type": "Normal",
+      "category": "physical",
+      "power": 25,
+      "accuracy": 85,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 555,
+      "name": "Snarl",
+      "showdown_id": "snarl",
+      "type": "Dark",
+      "category": "special",
+      "power": 55,
+      "accuracy": 95,
+      "pp": 16,
+      "priority": 0,
+      "target": "all-opponents"
+    },
+    {
+      "id": 583,
+      "name": "Play Rough",
+      "showdown_id": "playrough",
+      "type": "Fairy",
+      "category": "physical",
+      "power": 90,
+      "accuracy": 90,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 706,
+      "name": "Psychic Fangs",
+      "showdown_id": "psychicfangs",
+      "type": "Psychic",
+      "category": "physical",
+      "power": 85,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 707,
+      "name": "Stomping Tantrum",
+      "showdown_id": "stompingtantrum",
+      "type": "Ground",
+      "category": "physical",
+      "power": 75,
+      "accuracy": 100,
+      "pp": 12,
+      "priority": 0,
+      "target": "selected"
+    },
+    {
+      "id": 709,
+      "name": "Accelerock",
+      "showdown_id": "accelerock",
+      "type": "Rock",
+      "category": "physical",
+      "power": 40,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 1,
+      "target": "selected"
+    },
+    {
+      "id": 885,
+      "name": "Trailblaze",
+      "showdown_id": "trailblaze",
+      "type": "Grass",
+      "category": "physical",
+      "power": 50,
+      "accuracy": 100,
+      "pp": 20,
+      "priority": 0,
+      "target": "selected"
+    }
+  ],
+  "megas": [],
+  "usage": {
+    "present": true,
+    "by_cutoff": {
+      "0": {
+        "usage": 0.0017734,
+        "raw_count": 6941,
+        "viability_ceiling": [
+          626,
+          77,
+          72,
+          56
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 4807.0
+          },
+          {
+            "key": "lifeorb",
+            "weight": 832.0
+          },
+          {
+            "key": "expertbelt",
+            "weight": 315.0
+          },
+          {
+            "key": "hardstone",
+            "weight": 301.0
+          },
+          {
+            "key": "widelens",
+            "weight": 89.0
+          },
+          {
+            "key": "choicescarf",
+            "weight": 81.0
+          },
+          {
+            "key": "metronome",
+            "weight": 80.0
+          },
+          {
+            "key": "whiteherb",
+            "weight": 71.0
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "rockslide",
+            "weight": 5886.0
+          },
+          {
+            "key": "protect",
+            "weight": 5223.0
+          },
+          {
+            "key": "accelerock",
+            "weight": 4629.0
+          },
+          {
+            "key": "closecombat",
+            "weight": 4036.0
+          },
+          {
+            "key": "endeavor",
+            "weight": 1684.0
+          },
+          {
+            "key": "psychicfangs",
+            "weight": 1109.0
+          },
+          {
+            "key": "playrough",
+            "weight": 668.0
+          },
+          {
+            "key": "drillrun",
+            "weight": 555.0
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "sandrush",
+            "weight": 5351.0
+          },
+          {
+            "key": "steadfast",
+            "weight": 1041.0
+          },
+          {
+            "key": "keeneye",
+            "weight": 549.0
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 1544.0
+          },
+          {
+            "key": "Adamant:2/32/0/0/0/32",
+            "weight": 1433.0
+          },
+          {
+            "key": "Adamant:1/32/0/0/1/32",
+            "weight": 1244.0
+          },
+          {
+            "key": "Jolly:1/32/0/0/1/32",
+            "weight": 1244.0
+          },
+          {
+            "key": "Adamant:0/32/2/0/0/32",
+            "weight": 259.0
+          },
+          {
+            "key": "Adamant:0/32/0/0/2/32",
+            "weight": 208.0
+          },
+          {
+            "key": "Adamant:0/32/0/0/0/32",
+            "weight": 157.0
+          },
+          {
+            "key": "Jolly:0/32/0/0/0/32",
+            "weight": 111.0
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Tyranitar-Mega",
+            "weight": 2414.0
+          },
+          {
+            "key": "Sinistcha",
+            "weight": 1140.0
+          },
+          {
+            "key": "Tyranitar",
+            "weight": 1061.0
+          },
+          {
+            "key": "Hippowdon",
+            "weight": 949.0
+          },
+          {
+            "key": "Incineroar",
+            "weight": 902.0
+          },
+          {
+            "key": "Kingambit",
+            "weight": 737.0
+          },
+          {
+            "key": "Garchomp",
+            "weight": 732.0
+          },
+          {
+            "key": "Farigiraf",
+            "weight": 716.0
+          }
+        ],
+        "top_counters": [
+          {
+            "key": "Floette-Mega",
+            "score": 0.6119,
+            "n": 67
+          },
+          {
+            "key": "Sinistcha",
+            "score": 0.5,
+            "n": 244
+          },
+          {
+            "key": "Basculegion",
+            "score": 0.5,
+            "n": 228
+          },
+          {
+            "key": "Sneasler",
+            "score": 0.4865,
+            "n": 185
+          },
+          {
+            "key": "Garchomp",
+            "score": 0.4802,
+            "n": 252
+          },
+          {
+            "key": "Torkoal",
+            "score": 0.4737,
+            "n": 95
+          },
+          {
+            "key": "Swampert-Mega",
+            "score": 0.473,
+            "n": 74
+          },
+          {
+            "key": "Staraptor-Mega",
+            "score": 0.4615,
+            "n": 104
+          }
+        ]
+      },
+      "1760": {
+        "usage": 0.00040669999999999997,
+        "raw_count": 6941,
+        "viability_ceiling": [
+          626,
+          77,
+          72,
+          56
+        ],
+        "top_items": [
+          {
+            "key": "focussash",
+            "weight": 2.9989041976851727
+          },
+          {
+            "key": "lifeorb",
+            "weight": 0.39551733444156784
+          },
+          {
+            "key": "hardstone",
+            "weight": 0.3132254005996003
+          },
+          {
+            "key": "kingsrock",
+            "weight": 0.035142034399056
+          },
+          {
+            "key": "expertbelt",
+            "weight": 0.02977093549172738
+          },
+          {
+            "key": "leftovers",
+            "weight": 0.026123483255997337
+          },
+          {
+            "key": "sitrusberry",
+            "weight": 0.015518882636951725
+          },
+          {
+            "key": "metronome",
+            "weight": 0.004689987145758967
+          }
+        ],
+        "top_moves": [
+          {
+            "key": "closecombat",
+            "weight": 3.619614905923119
+          },
+          {
+            "key": "rockslide",
+            "weight": 3.489116158344083
+          },
+          {
+            "key": "protect",
+            "weight": 3.4365740507908216
+          },
+          {
+            "key": "psychicfangs",
+            "weight": 2.244201072883081
+          },
+          {
+            "key": "accelerock",
+            "weight": 1.1093097201214315
+          },
+          {
+            "key": "endeavor",
+            "weight": 0.588568541633582
+          },
+          {
+            "key": "stoneedge",
+            "weight": 0.1781365301933182
+          },
+          {
+            "key": "drillrun",
+            "weight": 0.14437739264096922
+          }
+        ],
+        "top_abilities": [
+          {
+            "key": "sandrush",
+            "weight": 3.5741503835567796
+          },
+          {
+            "key": "keeneye",
+            "weight": 0.18278014654238528
+          },
+          {
+            "key": "steadfast",
+            "weight": 0.06923793409159751
+          }
+        ],
+        "top_spreads": [
+          {
+            "key": "Jolly:1/32/0/0/1/32",
+            "weight": 1.3887238886252395
+          },
+          {
+            "key": "Adamant:2/32/0/0/0/32",
+            "weight": 0.9388131037692528
+          },
+          {
+            "key": "Adamant:1/32/0/0/1/32",
+            "weight": 0.8506636091331012
+          },
+          {
+            "key": "Adamant:0/32/0/0/2/32",
+            "weight": 0.19812233200656643
+          },
+          {
+            "key": "Jolly:0/32/0/0/2/32",
+            "weight": 0.15268863330781657
+          },
+          {
+            "key": "Jolly:2/32/0/0/0/32",
+            "weight": 0.1109256667281599
+          },
+          {
+            "key": "Jolly:0/32/2/0/0/32",
+            "weight": 0.06276887458037972
+          },
+          {
+            "key": "Adamant:0/32/0/0/0/32",
+            "weight": 0.029515614334390927
+          }
+        ],
+        "top_teammates": [
+          {
+            "key": "Staraptor-Mega",
+            "weight": 1.7464037182986762
+          },
+          {
+            "key": "Tyranitar",
+            "weight": 1.571081959281621
+          },
+          {
+            "key": "Tyranitar-Mega",
+            "weight": 1.5123553763933637
+          },
+          {
+            "key": "Gholdengo",
+            "weight": 1.4934663478263077
+          },
+          {
+            "key": "Meowscarada",
+            "weight": 1.1401408916002063
+          },
+          {
+            "key": "Glimmora-Mega",
+            "weight": 1.051848127557642
+          },
+          {
+            "key": "Incineroar",
+            "weight": 0.6971617266242136
+          },
+          {
+            "key": "Basculegion",
+            "weight": 0.5963701905275014
+          }
+        ],
+        "top_counters": []
+      }
+    }
+  },
+  "image_url": "https://championsbattledata.com/pokemon_champions_assets/pokemon/Lycanroc.png",
+  "battle_data": {
+    "present": true,
+    "source": "championsbattledata.com",
+    "season": "Current",
+    "format": "Doubles",
+    "top_moves": [
+      {
+        "name": "Rock Slide",
+        "pct": 83.3,
+        "rank": 1
+      },
+      {
+        "name": "Accelerock",
+        "pct": 66.1,
+        "rank": 2
+      },
+      {
+        "name": "Close Combat",
+        "pct": 64.7,
+        "rank": 3
+      },
+      {
+        "name": "Protect",
+        "pct": 62.4,
+        "rank": 4
+      },
+      {
+        "name": "Psychic Fangs",
+        "pct": 26.9,
+        "rank": 5
+      },
+      {
+        "name": "Endeavor",
+        "pct": 13.3,
+        "rank": 6
+      },
+      {
+        "name": "Play Rough",
+        "pct": 9.3,
+        "rank": 7
+      },
+      {
+        "name": "Iron Head",
+        "pct": 8.0,
+        "rank": 8
+      },
+      {
+        "name": "Sucker Punch",
+        "pct": 7.0,
+        "rank": 9
+      },
+      {
+        "name": "Taunt",
+        "pct": 6.0,
+        "rank": 10
+      }
+    ],
+    "top_items": [
+      {
+        "name": "Focus Sash",
+        "pct": 64.1,
+        "rank": 1
+      },
+      {
+        "name": "Life Orb",
+        "pct": 18.0,
+        "rank": 2
+      },
+      {
+        "name": "Hard Stone",
+        "pct": 6.6,
+        "rank": 3
+      },
+      {
+        "name": "King's Rock",
+        "pct": 2.5,
+        "rank": 4
+      },
+      {
+        "name": "Choice Scarf",
+        "pct": 2.3,
+        "rank": 5
+      },
+      {
+        "name": "Expert Belt",
+        "pct": 1.7,
+        "rank": 6
+      },
+      {
+        "name": "Muscle Band",
+        "pct": 1.5,
+        "rank": 7
+      },
+      {
+        "name": "Wide Lens",
+        "pct": 1.3,
+        "rank": 8
+      },
+      {
+        "name": "White Herb",
+        "pct": 1.2,
+        "rank": 9
+      },
+      {
+        "name": "Sitrus Berry",
+        "pct": 1.1,
+        "rank": 10
+      }
+    ],
+    "top_abilities": [
+      {
+        "name": "Sand Rush",
+        "pct": 71.5,
+        "rank": 1
+      },
+      {
+        "name": "Keen Eye",
+        "pct": 14.6,
+        "rank": 2
+      },
+      {
+        "name": "Steadfast",
+        "pct": 13.9,
+        "rank": 3
+      }
+    ],
+    "top_natures": [
+      {
+        "name": "Adamant",
+        "pct": 58.1,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Atk",
+        "rank": 1
+      },
+      {
+        "name": "Jolly",
+        "pct": 31.0,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Atk",
+        "rank": 2
+      },
+      {
+        "name": "Naughty",
+        "pct": 2.8,
+        "stat_up": "Attack",
+        "stat_down": "Sp. Def",
+        "rank": 3
+      },
+      {
+        "name": "Lonely",
+        "pct": 2.3,
+        "stat_up": "Attack",
+        "stat_down": "Defense",
+        "rank": 4
+      },
+      {
+        "name": "Hasty",
+        "pct": 1.4,
+        "stat_up": "Speed",
+        "stat_down": "Defense",
+        "rank": 5
+      },
+      {
+        "name": "Naive",
+        "pct": 0.8,
+        "stat_up": "Speed",
+        "stat_down": "Sp. Def",
+        "rank": 6
+      },
+      {
+        "name": "Gentle",
+        "pct": 0.7,
+        "stat_up": "Sp. Def",
+        "stat_down": "Defense",
+        "rank": 7
+      },
+      {
+        "name": "Brave",
+        "pct": 0.7,
+        "stat_up": "Attack",
+        "stat_down": "Speed",
+        "rank": 8
+      },
+      {
+        "name": "Careful",
+        "pct": 0.5,
+        "stat_up": "Sp. Def",
+        "stat_down": "Sp. Atk",
+        "rank": 9
+      },
+      {
+        "name": "Impish",
+        "pct": 0.5,
+        "stat_up": "Defense",
+        "stat_down": "Sp. Atk",
+        "rank": 10
+      }
+    ],
+    "top_spreads": [
+      {
+        "sp": {
+          "hp": 2,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 51.1,
+        "rank": 1
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 32
+        },
+        "pct": 12.7,
+        "rank": 2
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 2,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 8.0,
+        "rank": 3
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 3.8,
+        "rank": 4
+      },
+      {
+        "sp": {
+          "hp": 1,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 0,
+          "spe": 32
+        },
+        "pct": 2.1,
+        "rank": 5
+      },
+      {
+        "sp": {
+          "hp": 0,
+          "atk": 32,
+          "def": 1,
+          "spa": 0,
+          "spd": 1,
+          "spe": 32
+        },
+        "pct": 1.9,
+        "rank": 6
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 0,
+          "spe": 2
+        },
+        "pct": 1.7,
+        "rank": 7
+      },
+      {
+        "sp": {
+          "hp": 32,
+          "atk": 32,
+          "def": 0,
+          "spa": 0,
+          "spd": 2,
+          "spe": 0
+        },
+        "pct": 1.2,
+        "rank": 8
+      }
+    ],
+    "top_teammates": [
+      {
+        "name": "Tyranitar",
+        "rank": 1
+      },
+      {
+        "name": "Kingambit",
+        "rank": 2
+      },
+      {
+        "name": "Sneasler",
+        "rank": 3
+      },
+      {
+        "name": "Sinistcha",
+        "rank": 4
+      },
+      {
+        "name": "Basculegion Male",
+        "rank": 5
+      },
+      {
+        "name": "Garchomp",
+        "rank": 6
+      },
+      {
+        "name": "Froslass",
+        "rank": 7
+      },
+      {
+        "name": "Whimsicott",
+        "rank": 8
+      },
+      {
+        "name": "Incineroar",
+        "rank": 9
+      },
+      {
+        "name": "Farigiraf",
+        "rank": 10
+      }
+    ]
+  }
+}
